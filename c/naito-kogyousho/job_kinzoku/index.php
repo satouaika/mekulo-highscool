@@ -25,7 +25,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -122,8 +122,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				分厚い鉄を切り、穴を開けてフレームのパーツを作り上げる
 			</h3>
 			<p>
-				　巨大な機械を支えるフレームも、実は丈夫な鉄骨や分厚い鉄板を一つ一つ組み合わせて作られています。こうした材料は、時には数センチもの厚さになることもあるので、切断したり穴を開けたりするだけで大変です。そのため、組み立てる前にまず工作機械を使って切断をしたり穴を開けたりして、部品の形を作ります。<br>
-				　部品も重いので、クレーンを使って運んでいます。
+				巨大な機械を支えるフレームも、実は丈夫な鉄骨や分厚い鉄板を一つ一つ組み合わせて作られています。こうした材料は、時には数センチもの厚さになることもあるので、切断したり穴を開けたりするだけで大変です。そのため、組み立てる前にまず工作機械を使って切断をしたり穴を開けたりして、部品の形を作ります。<br>
+				部品も重いので、クレーンを使って運んでいます。
 			</p>
 			<div class="images">
 				<img src="../introduce1.jpg" alt="" class="scene">
@@ -136,19 +136,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<img src="../gomen.jpg" alt="" class="scene">
 			</div>
 			<p>
-				　加工するものが大きいので、加工する機械も巨大です。高さは人間の数倍で、長さはバスくらいあります。初めて見る人はびっくりするかもしれません。
+				加工するものが大きいので、加工する機械も巨大です。高さは人間の数倍で、長さはバスくらいあります。初めて見る人はびっくりするかもしれません。
 			</p>
-			<div class="images">
-				<img src="firstview.jpg" alt="" class="scene">
-			</div>
 			<h3>
 				小さなところから徐々に挑戦していく
 			</h3>
 			<p>
-				　入社後は、まずは穴を開ける場所に印をつけていくなど、簡単な作業から始めます。一つの加工をマスターしたら、レベルアップして先輩から教わりながら新しい加工に挑戦します。この流れを繰り返し、経験を積み重ねることで、できる仕事を増やしていきます。
+				入社後は、まずは穴を開ける場所に印をつけていくなど、簡単な作業から始めます。一つの加工をマスターしたら、レベルアップして先輩から教わりながら新しい加工に挑戦します。この流れを繰り返し、経験を積み重ねることで、できる仕事を増やしていきます。
 			</p>
+			<div class="images">
+				<img src="anaake.jpg" alt="" class="scene">
+			</div>
 			<p>
-				　当社で働いている多くの社員は、未経験からのスタートなので、最初は何もわからないのが当たり前です。こうやって教え合いながら経験を積んでいくことで、将来的には、図面を見ただけで加工の順序や方法を考えられるようになります。
+				当社で働いている多くの社員は、未経験からのスタートなので、最初は何もわからないのが当たり前です。こうやって教え合いながら経験を積んでいくことで、将来的には、図面を見ただけで加工の順序や方法を考えられるようになります。
 			</p>
 		</section>
 		<section class="g">
@@ -156,34 +156,41 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<div class="NRGallery" data-width="640" data-height="480">
 				<div class="image_area">
 					<ul class="slides">
-<?php
-foreach ($scenery as $i) {
-	if ($i['disp_order'] != NULL) {
-		?><li><img src="<?= $image . $i['filename'] ?>" alt=""><?php
-		if ($i['subtitle'] != NULL) {
-			?><div class="caption"><?= h($i['subtitle']) ?></div><?php
-		}
-		?></li><?php
-	}
-}
-?>
-					</ul>
-					<div class="button left_btn"><img src="<?= $base ?>left.png" alt=""></div>
-					<div class="button right_btn"><img src="<?= $base ?>right.png" alt=""></div>
+					<li>
+						<img src="DSC_4163.jpg" alt="">
+					</li>
+        			<li>
+						<img src="DSC_4164.jpg" alt="">
+					</li>
+        			<li>
+						<img src="DSC09838.jpg" alt="">
+					</li>
+					<li>
+						<img src="DSC09862.jpg" alt="">
+					</li>
+				</ul>
+				<div class="button left_btn">&lt;</div>
+				<div class="button right_btn">&gt;</div>
 				</div>
 			</div>
 		</section>
 		<section class="g" id="employee_introduction">
 			<h2>社員紹介</h2>
-			<div class="member-list Lightbox">
-				<div class="thumbnails">
-					<div class="thumbnail furuya">
-						<img src="<?= $highschool_base ?>magnifying-glass.png" class="glass">
-					</div>
-					<p>2014年 (中途入社)</p>
-					<p>浦木さん</p>
-				</div>
+			<ul class="Lightbox">
+		<li class="thumbnails">
+			<div class="thumbnail">
+				<img src="firstview.jpg" alt="">
+				<hgroup>
+					<h3>浦木さん</h3>
+					<p>
+						製造業からいろいろな業種に転職しましたが、また製造業に戻ってきました。わからないことを相談し合いながら解決する楽しさもあります。<br>
+						バイクが好きなので、休みの日は仲間と一緒に旅行することが多いです。
+						</p>
+				</hgroup>
 			</div>
+			<p>2014年中途入社<br>浦木さん</p>
+		</li>
+	</ul>
 		</section>
 		<section class="g requirements" id="recruitment_requirements">
 			<h2>募集要項</h2>
@@ -197,7 +204,7 @@ foreach ($scenery as $i) {
 					<dl>
 						<div>
 							<dt>募集職種</dt>
-							<dd>溶接作業</dd>
+							<dd>金属加工</dd>
 						</div>
 						<div>
 							<dt>雇用形態</dt>
@@ -225,27 +232,20 @@ foreach ($scenery as $i) {
 						<div>
 							<dt>基本給</dt>
 							<dd>
-								168,000～<br
-								>（1か月160時間勤務の場合、残業代別）
+								平均226,000
 							</dd>
 						</div>
 						<div>
 							<dt>諸手当</dt>
-							<dd>
-								通勤手当 、皆勤手当
-							</dd>
+							<dd>通勤手当 、皆勤手当</dd>
 						</div>
 						<div>
 							<dt>昇給</dt>
-							<dd>
-								あり
-							</dd>
+							<dd>あり</dd>
 						</div>
 						<div>
 							<dt>賞与</dt>
-							<dd>
-								あり
-							</dd>
+							<dd>あり</dd>
 						</div>
 						<div>
 							<dt>試用期間</dt>
@@ -253,9 +253,123 @@ foreach ($scenery as $i) {
 						</div>
 						<div>
 							<dt>定年制度</dt>
+							<dd>あり（60歳）</dd>
+						</div>
+					</dl>
+					<h3>勤務に関する情報</h3>
+					<dl>
+						<div>
+							<dt>本社</dt>
 							<dd>
-								あり（60歳）
+								〒3850051<br>
+								長野県佐久市中込3368-3
 							</dd>
+						</div>
+						<div>
+							<dt>勤務時間</dt>
+							<dd>8時10分〜17時15分</dd>
+						</div>
+						<div>
+							<dt>休憩時間</dt>
+							<dd>65分</dd>
+						</div>
+						<div>
+							<dt>休日・休暇</dt>
+							<dd>週休2日制、年間休日113日（2025年度計画）</dd>
+						</div>
+						<div>
+							<dt>適用保険</dt>
+							<dd>厚生年金保険、健康保険、介護保険、雇用保険、労災保険</dd>
+						</div>
+						<div>
+							<dt>時間外勤務の状況</dt>
+							<dd>月平均20時間</dd>
+						</div>
+						<div>
+							<dt>就業場所における受動喫煙防止の取組</dt>
+							<dd>建物内喫煙不可</dd>
+						</div>
+					</dl>
+					<h3>募集・採用に関する情報</h3>
+					<dl>
+						<div>
+							<dt>前年度の採用実績</dt>
+							<dd>0名</dd>
+						</div>
+						<div>
+							<dt>直近3年間の新卒離職者数</dt>
+							<dd>0名</dd>
+						</div>
+						<div>
+							<dt>採用者の出身学校実績</dt>
+							<dd>TBD</dd>
+						</div>
+					</dl>
+					<h3>雇用管理状況（令和６年度実績）</h3>
+					<dl>
+						<div>
+							<dt>前年度の月平均所定外労働時間の実績</dt>
+							<dd>20時間</dd>
+						</div>
+						<div>
+							<dt>前年度の有給休暇の平均取得日数</dt>
+							<dd>10日</dd>
+						</div>
+						<div>
+							<dt>前年度の育児休業取得者数</dt>
+							<dd>0名</dd>
+						</div>
+						<div>
+							<dt>役員/管理職の女性比率</dt>
+							<dd>役員 0%、管理職 0%</dd>
+						</div>
+						<div>
+							<dt>平均勤続年数</dt>
+							<dd>10年<br>
+							※創業以降の実績</dd>
+						</div>
+					</dl>
+				</div>
+				<div class="content">
+					<h3>キャリア形成支援制度</h3>
+					<dl>
+						<div>
+							<dt>研修制度</dt>
+							<dd>【TBD】</dd>
+						</div>
+						<div>
+							<dt>自己啓発支援制度</dt>
+							<dd>
+				<p>
+					【TBD】なし<br>
+					〇社内定期勉強会<br>
+					当社メンバーが主体となり、定期的な社内勉強会を実施しています。長期に渡るものや、単発のものまで様々ですが、メンバー自らが勉強会の企画から考え、実行しています。<br>
+					最近では、ウェブデザイン勉強会や、アクセス解析勉強会、マーケティング勉強会などを行いました。<br>
+				</p>
+				<p>
+					〇資格取得支援<br>
+					ウェブアナリスト、ウェブデザイン技能検定、ITパスポート、基本情報、ウェブ解析士などの資格取得にかかる費用を全て、会社承認の上で、100%補助を行っています。<br>
+					また、資格取得に向けた社内勉強会も、随時開催しています。<br>
+				</p>
+				<p>
+					〇当社主催の有料セミナーへの無料参加<br>
+					当社では、「上田IT講座」というITセミナー事業を運営しています。行う講座内容は、HTML、CSSの内容から、データベース、プログラミング、Androidアプリ開発など、多岐に渡る講座を提供しています。<br>
+					本来は、有料で参加できる講座ですが、当社メンバーは特別に無料で参加することができます。この機会に、新たな知識を付け、仕事に役立てている仲間も多くいます。<br>
+				</p>
+				<p>
+					〇教材及び外部セミナー補助制度<br>
+					ウェブ技術やデザインに関する教材本の購入にかかる費用を100%補助しています。また、外部セミナーへの受講費用は、勉強したことを社内で発表し、全メンバーに共有することを条件に50%補助しています。<br>
+				</p>
+			</dd>
+		</div>
+		<div>
+			<dt>メンター制度</dt>
+			<dd>
+				〇役員面談<br>
+				3ヵ月に一度の役員面談があります。役員面談では、3ヵ月間仕事を通じて、自らが成長した所を振り返ったり、今の仕事で悩んでいることがあれば遠慮なく言って頂く場として活用しています。<br>
+				そして、このような場で教えて頂いた課題は、「個人の課題」ではなく、「会社の課題」として私たち経営層も捉え、もっと良い会社を創るために組織として課題解決に臨んでいきます。<br>
+				また、正社員の場合、一年に一度ですがこの場で昇給の話もしていきます。<br>
+			</dd>
 						</div>
 					</dl>
 				</div>
@@ -291,4 +405,5 @@ foreach ($scenery as $i) {
 <?php include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
+<script src="<?= $highschool_base ?>NRGallery.js"></script>
 </body>
