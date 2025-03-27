@@ -98,7 +98,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</h2>
 	<p>
 		オーパーツの採用ページをご覧いただき、ありがとうございます。<br>
-		私たちオーパーツは、上田市住吉でスマホやゲーム機を作るための半導体装置に使われる部品やアーチェリーの照準器（サイト）、高級オーディオ機器のパネル部品などを手掛けている町工場です。<br>
+		私たちオーパーツは、上田市住吉でアーチェリーの照準器（サイト）や半導体製造装置に使われる部品、高級オーディオ機器のパネル部品などを手掛けている町工場です。<br>
 		試作品として単品モノを製造することもあれば、一か月数千個を製造するような量産を行うこともあり、時には、わずか0.001mm（1000分の1ミリ）のズレすら許されない精密な加工を行うこともあります。<br>
 		当社では「総合製造スタッフ」という職種を募集していますが、これは製造する部品・パーツの製造設計からプログラム開発、製造に必要となる治具や工具、機械操作など、ものづくりの全工程を手掛ける技術職です。
 	</p>
@@ -132,11 +132,17 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h3>取材担当者からのポイント！</h3>
 	<h4>サンプルテキスト</h4>
 	<figure class="portrait">
-			<img src="noguti.png" alt="">
+			<img src="noguchi.png" alt="">
 			<figcaption><span class="word">野口</span></figcaption>
 		</figure>
 	<p>
-		サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+		世の中には、「とにかく決められた通りに作るだけ」の会社もあります。<br>
+		ですが、オーパーツは違う！<br>
+		アーチェリーの照準器、高級オーディオ機器…。<br>
+		「自分の作ったパーツが、プロのアーチェリーの勝負を左右するかもしれない」<br>
+		そんな実感を持ちながら、モノづくりに携われる仕事です。<br>
+		幼いころにガンプラを作ったり、ゲーム機を分解してみたり、そんな経験があるにはハマる仕事だと思います。<br>
+		大日方社長も、モノづくり大好き人間です。だからこそ、お話してみると絶対に面白いはず！
 	</p>
 </div>
 <section class="content" id="about_company">
@@ -212,7 +218,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="introduce1.jpg" alt="">
+				<img src="busi2.jpg" alt="">
 				<hgroup>
 					<h3>サイトボックス（アーチェリー部品）</h3>
 					<p>
@@ -265,7 +271,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p class="remark">（2025年1月現在）</p>
 	<div class="large">
 		<p>売上高</p>
-		<p class="num"><span>1億2千</span>万円</p>
+		<p class="num"><span>1</span>億<span>2</span>千万円</p>
 		<p class="year">※2024年11月実績</p>
 	</div>
 	<ul class="gr_con">
@@ -390,7 +396,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>本社電話番号</dt>
-			<dd>0268-72-4065</dd>
+			<dd>0268-75-9702</dd>
 		</div>
 		<div>
 			<dt>ホームページ</dt>
