@@ -70,7 +70,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_wr">
-	<img alt="" class="fv_image" src="../third.jpg">
+	<img alt="" class="fv_image" src="../firstview.jpg">
 	<div class="apply">
 		<h1 class="catch"><?= $co['company_name'] ?></h1>
 		<p class="tag">応募前見学ページ</p>
@@ -84,9 +84,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<img src="../firstview.jpg" alt="">
 				<dl class="date">
 					<dt>直近開催日</dt>
-					<dd>03/31(月)<br>00時00分～</dd>
+					<dd>07/29(火)<br>14時00分～</dd>
 				</dl>
-				<p class="catch">実際にお客様と合う！？<br>企画営業を体験してみよう！</p>
+				<p class="catch">自分の身長より大きい！？<br>製造現場を見てみよう！</p>
 		</a>
 		</li>
 		<li>
@@ -94,9 +94,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<img src="../firstview.jpg" alt="">
 				<dl class="date">
 					<dt>直近開催日</dt>
-					<dd>03/31(月)<br>00時00分～</dd>
+					<dd>08/05(火)<br>14時00分～</dd>
 				</dl>
-				<p class="catch">実際に溶接！？<br>大型製缶を体験してみよう！</p>
+				<p class="catch">自分の身長より大きい！？<br>製造現場を見てみよう！</p>
 		</a>
 		</li>
 	</ul>

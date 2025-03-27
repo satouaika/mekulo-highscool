@@ -177,7 +177,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="firstview.jpg" alt="">
+				<img src="job_yousetsu/firstview.jpg" alt="">
 				<hgroup>
 					<h3>製缶溶接</h3>
 					<p>
@@ -440,7 +440,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_yousetsu/">
 				<figure>
-					<img src="firstview.jpg" alt="">
+					<img src="job_yousetsu/firstview.jpg" alt="">
 					<figcaption>溶接作業</figcaption>
 				</figure>
 			</a>
