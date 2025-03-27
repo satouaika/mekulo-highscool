@@ -132,7 +132,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h4>あたたかい職場</h4>
 	<figure class="portrait">
 			<img src="sato.png" alt="">
-			<figcaption><span class="word">佐藤</span></figcaption>
+			<figcaption><span class="word"></span></figcaption>
 		</figure>
 	<p>
 		交和物産では、みんなでいろんな話をしながら楽しく仕事をしています。先輩たちは仕事中に優しくサポートしてくれるだけでなく、休憩時間にも声をかけてくれます。まるで文化系の部活の先輩と後輩のように、あたたかい雰囲気で働ける職場です。<br>
