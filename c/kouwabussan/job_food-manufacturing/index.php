@@ -90,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="../firstview.jpg">
+    <img alt="" class="fv_image" src="firstview.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -137,22 +137,22 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				スーパーでよく見かける、袋入りの総菜や瓶詰の果物。これらが、どうやって作られているか知っていますか？
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
+				<img src="contents01.jpg" alt="" class="scene">
 			</div>
 			<p>
 				企業によっては、すべて機械で自動的に作られていることもありますが、当社では、ひとつひとつの商品が手作りで作られています。<br>
 				これらの商品を作るために、入社後はまず選別工程と袋詰め工程を担当していただきます。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
-				<img src="../firstview.jpg" alt="" class="scene">
+				<img src="contents02.jpg" alt="" class="scene">
+				<img src="contents03.jpg" alt="" class="scene">
 			</div>
 			<p>
 				・選別工程<br>
 				仕入れた食材の中に、痛んでいるものや食べられない部分が混ざっていないかをチェックし、使用できない食材や異物があれば取り除きます。
 			</p>
 			<div class="images">
-				<img src="yousetsu2.jpg" alt="" class="scene">
+				<img src="contents04.jpg" alt="" class="scene">
 			</div>
 			<p>
 				最初は判断が難しいかもしれませんが、隣にいる先輩がすぐに教えてくれるので安心です。<br>
@@ -163,16 +163,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				商品によって、1つずつ袋に入れるものもあれば、重さをはかって入れるものもあります。
 			</p>
 			<div class="images">
-				<img src="yousetsu2.jpg" alt="" class="scene">
-				<img src="yousetsu2.jpg" alt="" class="scene">
+				<img src="contents05.jpg" alt="" class="scene">
+				<img src="contents06.jpg" alt="" class="scene">
 			</div>
 			<p>
 				1つずつ入れる場合は、材料や袋の持ち方に注意が必要です。<br>
 				重さをはかる場合は正確にはかり、専用の道具を使って袋に詰めていきます。最初はコツをつかむのが難しいですが、慣れるとスムーズに、一袋の分量もだんだんわかってきます。
 			</p>
 			<div class="images">
-				<img src="yousetsu2.jpg" alt="" class="scene">
-				<img src="yousetsu2.jpg" alt="" class="scene">
+				<img src="contents07.jpg" alt="" class="scene">
+				<img src="contents08.jpg" alt="" class="scene">
 			</div>
 			<h3>
 				支えあいのチームワーク
@@ -182,7 +182,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				一人で悩むことなく、つまずきにくい環境が整っています。
 			</p>
 			<div class="images">
-				<img src="yousetsu3.jpg" alt="" class="scene">
+				<img src="contents09.jpg" alt="" class="scene">
 			</div>
 			<h3>
 				埃ひとつも許さない！
@@ -191,7 +191,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				食品を扱う仕事だからこそ、工場内には髪の毛はもちろん、埃ひとつ持ち込めません。入室前には手洗いを徹底し、エアーシャワーを浴びます。
 			</p>
 			<div class="images">
-				<img src="yousetsu3.jpg" alt="" class="scene">
+				<img src="contents10.jpg" alt="" class="scene">
 			</div>
 			<p>
 				飲食店でのアルバイトや学校給食の配膳でも、衛生管理の大切さを教わりますよね。私たちはそれ以上に衛生管理を徹底し、安心・安全を追求しています。
@@ -204,14 +204,14 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				定期的に社内で意見を出し合い、変化するニーズに対応した商品作りを心がけています。そこで、現場での経験を活かして、商品開発業務への異動も歓迎しています。
 			</p>
 			<div class="images">
-				<img src="yousetsu3.jpg" alt="" class="scene">
+				<img src="contents11.jpg" alt="" class="scene">
 			</div>
 			<p>
 				また、フォークリフトを使った作業や力仕事の工程もあり、さまざまな資格を取得するチャンスがあります。資格取得にかかる費用は、会社が全額サポート！<br>
 				少しでも興味があれば、気軽に相談してくださいね。
 			</p>
 			<div class="images">
-				<img src="yousetsu3.jpg" alt="" class="scene">
+				<img src="contents12.jpg" alt="" class="scene">
 			</div>
 		</section>
 		<section class="g">
@@ -220,13 +220,25 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div class="image_area">
 					<ul class="slides">
 					<li>
-				<img src="yousetsu1.jpg" alt="">
+				<img src="gallery01.jpg" alt="">
 			</li>
         <li>
-				<img src="yousetsu2.jpg" alt="">
+				<img src="gallery02.jpg" alt="">
 			</li>
         <li>
-				<img src="yousetsu3.jpg" alt="">
+				<img src="gallery03.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery04.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery05.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery06.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery07.jpg" alt="">
 			</li>
 				</ul>
 				<div class="button left_btn">&lt;</div>
@@ -239,7 +251,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="shiokawa.jpg" alt="">
+				<img src="yanagisawa.jpg" alt="">
 				<hgroup>
 					<h3>柳澤さん</h3>
 					<p>
@@ -272,7 +284,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						</div>
 						<div>
 							<dt>学歴上の応募資格</dt>
-							<dd>中卒以上</dd>
+							<dd>高卒以上</dd>
 						</div>
 						<div>
 							<dt>応募資格</dt>
@@ -292,8 +304,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						<div>
 							<dt>基本給</dt>
 							<dd>
-								171,000～<br
-								>（1か月160時間勤務の場合、残業代別）
+								171,000円～
 							</dd>
 						</div>
 						<div>
@@ -328,15 +339,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						</div>
 						<div>
 							<dt>勤務時間</dt>
-							<dd></dd>
+							<dd>8:00～17:00</dd>
 						</div>
 						<div>
 							<dt>休憩時間</dt>
-							<dd>60分</dd>
+							<dd>75分</dd>
 						</div>
 						<div>
 							<dt>休日・休暇</dt>
-							<dd>週休2日制（シフト制）、年間休日123日（2025年度計画）</dd>
+							<dd>日・祝日（年末年始、お盆、GW休業あり）、年間休日111日（2025年度計画）</dd>
 						</div>
 						<div>
 							<dt>適用保険</dt>
@@ -344,7 +355,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						</div>
 						<div>
 							<dt>時間外勤務の状況</dt>
-							<dd>月平均10時間位</dd>
+							<dd>月平均8時間</dd>
 						</div>
 						<div>
 							<dt>就業場所における受動喫煙防止の取組</dt>
@@ -355,26 +366,26 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dl>
 						<div>
 							<dt>前年度の採用実績</dt>
-							<dd>２名</dd>
+							<dd>0名</dd>
 						</div>
 						<div>
 							<dt>直近3年間の新卒離職者数</dt>
-							<dd>１名</dd>
+							<dd>0名</dd>
 						</div>
 						<div>
 							<dt>採用者の出身学校実績</dt>
-							<dd>長野大学</dd>
+							<dd></dd>
 						</div>
 					</dl>
 					<h3>雇用管理状況（令和６年度実績）</h3>
 					<dl>
 						<div>
 							<dt>前年度の月平均所定外労働時間の実績</dt>
-							<dd>13.5時間</dd>
+							<dd>8時間</dd>
 						</div>
 						<div>
 							<dt>前年度の有給休暇の平均取得日数</dt>
-							<dd>8.5日</dd>
+							<dd>12日</dd>
 						</div>
 						<div>
 							<dt>前年度の育児休業取得者数</dt>
@@ -382,12 +393,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						</div>
 						<div>
 							<dt>役員/管理職の女性比率</dt>
-							<dd>役員 0%、管理職 0%</dd>
+							<dd>役員 0%、管理職 4.2%</dd>
 						</div>
 						<div>
 							<dt>平均勤続年数</dt>
-							<dd>3.0年（アルバイト・パートを除く）<br>
-							※2017年の創業以降の実績</dd>
+							<dd>13年<br>
+							※創業以降の実績</dd>
 						</div>
 					</dl>
 				</div>
@@ -396,41 +407,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dl>
 						<div>
 							<dt>研修制度</dt>
-							<dd>OJTのみ</dd>
+							<dd><p>
+							〇新人研修
+							</p></dd>
 						</div>
 						<div>
 							<dt>自己啓発支援制度</dt>
 							<dd>
 				<p>
-					〇社内定期勉強会<br>
-					　当社メンバーが主体となり、定期的な社内勉強会を実施しています。長期に渡るものや、単発のものまで様々ですが、メンバー自らが勉強会の企画から考え、実行しています。<br>
-					　最近では、ウェブデザイン勉強会や、アクセス解析勉強会、マーケティング勉強会などを行いました。<br>
-				</p>
-				<p>
 					〇資格取得支援<br>
-					　ウェブアナリスト、ウェブデザイン技能検定、ITパスポート、基本情報、ウェブ解析士などの資格取得にかかる費用を全て、会社承認の上で、100%補助を行っています。<br>
-					　また、資格取得に向けた社内勉強会も、随時開催しています。<br>
-				</p>
-				<p>
-					〇当社主催の有料セミナーへの無料参加<br>
-					　当社では、「上田IT講座」というITセミナー事業を運営しています。行う講座内容は、HTML、CSSの内容から、データベース、プログラミング、Androidアプリ開発など、多岐に渡る講座を提供しています。<br>
-					　本来は、有料で参加できる講座ですが、当社メンバーは特別に無料で参加することができます。この機会に、新たな知識を付け、仕事に役立てている仲間も多くいます。<br>
-				</p>
-				<p>
-					〇教材及び外部セミナー補助制度<br>
-					　ウェブ技術やデザインに関する教材本の購入にかかる費用を100%補助しています。また、外部セミナーへの受講費用は、勉強したことを社内で発表し、全メンバーに共有することを条件に50%補助しています。<br>
+					会社が認めた資格について、資格取得にかかる費用を全額補助いたします。
 				</p>
 			</dd>
 		</div>
-		<div>
-			<dt>メンター制度</dt>
-			<dd>
-				〇役員面談<br>
-				　3ヵ月に一度の役員面談があります。役員面談では、3ヵ月間仕事を通じて、自らが成長した所を振り返ったり、今の仕事で悩んでいることがあれば遠慮なく言って頂く場として活用しています。<br>
-				　そして、このような場で教えて頂いた課題は、「個人の課題」ではなく、「会社の課題」として私たち経営層も捉え、もっと良い会社を創るために組織として課題解決に臨んでいきます。<br>
-				　また、正社員の場合、一年に一度ですがこの場で昇給の話もしていきます。<br>
-			</dd>
-						</div>
 					</dl>
 				</div>
 				<a href="<?= $company_base ?>apply/#entry" class="btn_entry">

@@ -103,16 +103,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
-			<img src="first.jpg" alt="" class="fs show">
-			<img src="second.jpg" alt="" class="sc">
-			<img src="third.jpg" alt="" class="th">
-			<img src="fourth.jpg" alt="" class="fo">
+			<img src="gallery01.jpg" alt="" class="fs show">
+			<img src="gallery02.jpg" alt="" class="sc">
+			<img src="gallery04.jpg" alt="" class="th">
+			<img src="gallery05.jpg" alt="" class="fo">
 		</div>
 		<div class="gallery_index">
-			<img src="first.jpg" alt="" class="fs">
-			<img src="second.jpg" alt="" class="sc">
-			<img src="third.jpg" alt="" class="th">
-			<img src="fourth.jpg" alt="" class="fo">
+			<img src="gallery01.jpg" alt="" class="fs show">
+			<img src="gallery02.jpg" alt="" class="sc">
+			<img src="gallery04.jpg" alt="" class="th">
+			<img src="gallery05.jpg" alt="" class="fo">
 		</div>
 	</div>
 	<h3>募集職種</h3>
@@ -148,21 +148,21 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		私たちは、坂城町にある食品加工の会社です。『味のかけはし』というブランドを展開し、きのこがたっぷり入った炊き込みご飯の素や、信州りんごが丸ごと入っているゼリーなどを取り扱っています。
 	</p>
 	<div class="images">
-		<img src="introduce1.jpg" class="scene" alt="">
+		<img src="contents01.jpg" class="scene" alt="">
 	</div>
 	<p>
 		安全でおいしい商品を作るために、食材の仕入れや選別から、調理、殺菌、袋詰め、検査、ラベル貼りまでをすべて自社で行っています。
 	</p>
 	<div class="images grid-img">
-		<img src="job_yousetsu/yousetsu2.jpg" class="scene" alt="">
-		<img src="job_yousetsu/yousetsu3.jpg" class="scene" alt="">
-		<img src="job_yousetsu/yousetsu1.jpg" class="scene" alt="">
+		<img src="contents02.jpg" class="scene" alt="">
+		<img src="contents03.jpg" class="scene" alt="">
+		<img src="contents04.jpg" class="scene" alt="">
 	</div>
 	<p>
 		私たちの商品は、スーパーの『ツルヤ』や食品メーカーを通じて、たくさんの人に届けられています。これからは新商品の開発にも力を入れ、もっと多くの人に信州の美味しさを届けていきます！
 	</p>
 	<div class="images">
-		<img src="fukitsuke.jpg" class="scene" alt="">
+		<img src="contents05.jpg" class="scene" alt="">
 	</div>
 </section>
 <section id="business" class="content">
@@ -170,7 +170,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="firstview.jpg" alt="">
+				<img src="busi1.png" alt="">
 				<hgroup>
 					<h3>『味のかけはし』</h3>
 					<p>
@@ -183,7 +183,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="gomen.jpg" alt="">
+				<img src="busi2.jpg" alt="">
 				<hgroup>
 					<h3>人気商品トップ3</h3>
 					<p>
@@ -196,7 +196,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="anaake.jpg" alt="">
+				<img src="busi3.jpg" alt="">
 				<hgroup>
 					<h3>業務用</h3>
 					<p>
@@ -354,7 +354,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="pre_con">
 		<h3>『食』を通じて、地域に貢献する</h3>
 		<figure class="portrait">
-			<img src="president_p.jpg" alt="">
+			<img src="message.jpg" alt="">
 			<figcaption><span class="word">西澤秀一</span></figcaption>
 		</figure>
 		<p>
@@ -400,7 +400,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_food-manufacturing/">
 				<figure>
-					<img src="firstview.jpg" alt="">
+					<img src="job_food-manufacturing/firstview.jpg" alt="">
 					<figcaption>食品製造職</figcaption>
 				</figure>
 			</a>
