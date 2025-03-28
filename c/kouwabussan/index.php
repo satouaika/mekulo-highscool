@@ -262,8 +262,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 60, 'caption' => '男性：6', 'color' => '#0062B5'],
-						[ 'value' => 40, 'caption' => '女性：4', 'color' => '#FF6E7E'],
+						[ 'value' => 40, 'caption' => '男性：4', 'color' => '#0062B5'],
+						[ 'value' => 60, 'caption' => '女性：6', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -331,7 +331,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>従業員数</dt>
-			<dd>43名</dd>
+			<dd>46名</dd>
 		</div>
 		<div>
 			<dt>本社所在地</dt>

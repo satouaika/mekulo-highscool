@@ -260,7 +260,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					</p>
 				</hgroup>
 			</div>
-			<p>2022年新卒入社<br>柳澤さん</p>
+			<p>2022年中途入社<br>柳澤さん</p>
 		</li>
 	</ul>
 		</section>
@@ -366,15 +366,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dl>
 						<div>
 							<dt>前年度の採用実績</dt>
-							<dd>0名</dd>
+							<dd>2名</dd>
 						</div>
 						<div>
 							<dt>直近3年間の新卒離職者数</dt>
-							<dd>0名</dd>
+							<dd>3名</dd>
 						</div>
 						<div>
 							<dt>採用者の出身学校実績</dt>
-							<dd></dd>
+							<dd>坂城高等学校、東御清翔高等学校、長野俊英高等学校</dd>
 						</div>
 					</dl>
 					<h3>雇用管理状況（令和６年度実績）</h3>
@@ -393,12 +393,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						</div>
 						<div>
 							<dt>役員/管理職の女性比率</dt>
-							<dd>役員 0%、管理職 4.2%</dd>
+							<dd>役員 25%、管理職 4.2%</dd>
 						</div>
 						<div>
 							<dt>平均勤続年数</dt>
-							<dd>13年<br>
-							※創業以降の実績</dd>
+							<dd>13年</dd>
 						</div>
 					</dl>
 				</div>
