@@ -21,7 +21,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -76,36 +76,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<p class="tag">応募前見学ページ</p>
 	</div>
 </div>
-<section id="list" class="content">
-	<h2>内藤工業所の応募前見学</h2>
-	<ul class="list-wr">
-		<li>
-			<a href="">
-				<img src="../firstview.jpg" alt="">
-				<dl class="date">
-					<dt>直近開催日</dt>
-					<dd>03/31(月)<br>00時00分～</dd>
-				</dl>
-				<p class="catch">実際にお客様と合う！？<br>企画営業を体験してみよう！</p>
-		</a>
-		</li>
-		<li>
-			<a href="">
-				<img src="../firstview.jpg" alt="">
-				<dl class="date">
-					<dt>直近開催日</dt>
-					<dd>03/31(月)<br>00時00分～</dd>
-				</dl>
-				<p class="catch">実際に溶接！？<br>大型製缶を体験してみよう！</p>
-		</a>
-		</li>
-	</ul>
-</section>
 <section id="content" class="content">
-	<p class="catchcopy"><span>実際にお客様と会う！？</span><br>
-		<span>企画営業を体験してみよう！</span></p>
+	<p class="catchcopy"><span>ダクト作り体験も！？</span><br>
+		<span>工場見学ツアーに参加しよう！</span></p>
 		<div class="content-wr">
-			
+			<p>
+				サンプルテキストサンプルテキストサンプルサンプルサンプルサンプルテキストサンプルテキストサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルテキストサンプルテキストサンプルサンプルサンプルサンプルサンプルテキストサンプルテキストサンプルサンプルサンプルサンプルテキストサンプルテキストサンプルサンプルサンプルサンプル
+			</p>
 		</div>
 </section>
 </main>

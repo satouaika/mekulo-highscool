@@ -131,7 +131,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h4>積極的な対話が根付いた職場</h4>
 	<figure class="portrait">
 			<img src="sato.png" alt="">
-			<figcaption><span class="word">佐藤</span></figcaption>
+			<figcaption><span class="word"></span></figcaption>
 		</figure>
 	<p>
 		創風では「とにかく楽しんで働いてほしい」という想いを大切にしており、休憩中は社員同士が笑顔で会話する光景が印象的です。<br>
