@@ -102,7 +102,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</p>
 	<p>
 		<ruby>「鋳造」<rt>ちゅうぞう</rt></ruby>とは、アルミを溶かして型に流し込み、部品を作る技法です。<br>
-		「<ruby>鍛造<rt>たんぞう</rt></ruby>」とは、熱したアルミ部品を1,000tの圧力で叩いて、金属の強度を高める技法です。<br>
+		「<ruby>鍛造<rt>たんぞう</rt></ruby>」とは、熱したアルミ部品を600tの圧力で叩いて、金属の強度を高める技法です。<br>
 		ファインフォーミングでは、この「鋳造」×「鍛造」の技術を組み合わせることで、部品を生み出しています。<br>
 		実は、この技術を扱えるのは全国を見ても、当社のみ！<br>
 		そんなファインフォーミングの仕事を、ぜひ覗いてみてください。
@@ -145,7 +145,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		そんな仕事、ちょっとワクワクしませんか？<br>
 		ファインフォーミングは、全国でも珍しい鋳造×鍛造を行う会社です。<br>
 		溶けた金属を型に流し、一瞬で製品に生まれ変わる鋳造。<br>
-		1,000tもの圧力で熱した金属を叩き、強度が高い製品を生み出す鍛造。<br>
+		600tもの圧力で熱した金属を叩き、強度が高い製品を生み出す鍛造。<br>
 		どちらも迫力満点で、まさに“職人技”の世界です！ぜひ、応募前見学に訪れてみてください。
 	</p>
 </div>
@@ -180,7 +180,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		スピード感が好きなら「鍛造」！
 	</h3>
 	<p>
-		鍛造は、熱した金属を<strong>1,000tの圧力で叩き、強度を高めながら形を整えていく技術</strong>です。
+		鍛造は、熱した金属を<strong>600tの圧力で叩き、強度を高めながら形を整えていく技術</strong>です。
 	</p>
 	<div class="images">
 		<img src="contents_03.jpg" class="scene" alt="">
@@ -209,7 +209,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="work02.jpg" alt="">
+				<img src="work02.png" alt="">
 				<hgroup>
 					<h3>鍛造</h3>
 					<p>
