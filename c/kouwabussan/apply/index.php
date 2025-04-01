@@ -21,7 +21,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -70,80 +70,35 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_wr">
-	<img alt="" class="fv_image" src="../third.jpg">
+	<img alt="" class="fv_image" src="firstview.jpg">
 	<div class="apply">
 		<h1 class="catch"><?= $co['company_name'] ?></h1>
 		<p class="tag">応募前見学ページ</p>
 	</div>
 </div>
-<section id="list" class="content">
-	<h2>内藤工業所の応募前見学</h2>
-	<ul class="list-wr">
-		<li>
-			<a href="">
-				<img src="../firstview.jpg" alt="">
-				<dl class="date">
-					<dt>直近開催日</dt>
-					<dd>03/31(月)<br>00時00分～</dd>
-				</dl>
-				<p class="catch">実際にお客様と合う！？<br>企画営業を体験してみよう！</p>
-		</a>
-		</li>
-		<li>
-			<a href="">
-				<img src="../firstview.jpg" alt="">
-				<dl class="date">
-					<dt>直近開催日</dt>
-					<dd>03/31(月)<br>00時00分～</dd>
-				</dl>
-				<p class="catch">実際に溶接！？<br>大型製缶を体験してみよう！</p>
-		</a>
-		</li>
-	</ul>
-</section>
 <section id="content" class="content">
-	<p class="catchcopy"><span>実際にお客様と会う！？</span><br>
-		<span>企画営業を体験してみよう！</span></p>
-	<div class="img-box">
-		<img src="../firstview.jpg" alt="">
-		<img src="../firstview.jpg" alt="">
-	</div>
-	<p class="cont">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</p>
+	<p class="catchcopy"><span>チームワークを体感しよう！</span></p>
+	<p class="cont">
+		交和物産の応募前見学では、食材の選別から袋詰めまでの工程を見学することができます。<br>
+		何の商品を作っているかは、その日のお楽しみ！スーパーで見たことのある商品を作っているかも…？<br>
+		複数人のチームワークで、テキパキと作業している様子が印象的です。<br>
+		開催日以外の見学も可能なので、お気軽にご連絡ください。
+	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年4月1日（火） 10時00分～</li>
-			<li>2025年4月1日（火） 10時00分～</li>
-			<li>2025年4月1日（火） 10時00分～</li>
-			<li>2025年4月1日（火） 10時00分～</li>
-			<li>2025年4月1日（火） 10時00分～</li>
+			<li>2025年7月29日（火） 10時00分～</li>
+			<li>2025年7月31日（木） 10時00分～</li>
+			<li>2025年8月6日（水） 10時00分～</li>
+			<li>2025年8月8日（金） 10時00分～</li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>会社説明<span>30分程度</span></li>
-			<li>先輩社員と会社見学<span>20分程度</span></li>
-			<li>先輩社員との座談会<span>20分程度</span></li>
-			<li>質疑応答<span>10分程度</span></li>
+			<li>会社説明<span>10分程度</span></li>
+			<li>工場見学<span>30分程度</span></li>
 		</ul>
-	</div>
-	<div class="point">
-		<p>この見学の見どころ！</p>
-		<div class="point-box">
-			<img src="../firstview.jpg" alt="">
-			<dl>
-				<dt>見どころビッグタイトル</dt>
-				<dd>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミ</dd>
-			</dl>
-		</div>
-		<div class="point-box">
-		<img src="../firstview.jpg" alt="">
-			<dl>
-				<dt>見どころビッグタイトル</dt>
-				<dd>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミ</dd>
-			</dl>
-		</div>
 	</div>
 	<a href="../apply/#entry" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
