@@ -148,7 +148,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				ダクト職人は、「腰道具」と呼ばれるさまざまな工具を身につけて作業します。ナラシハンマーやラチェットレンチと呼ばれる工具を使いながら、チームで声を掛け合い、素早くダクトを設置していきます。
 			</p>
 			<div class="images">
-				<img src="" alt="" class="scene">
+				<img src="dougu.jpg" alt="" class="scene">
+				<img src="dougu2.jpg" alt="" class="scene">
 			</div>
 			<p>
 				取り付けの技術は1on1の個別指導ではなく、周りのみんなで教え合います。昔は「見て覚えろ」と言われることもありましたが、今はしっかり教える環境が整っています。<br>
