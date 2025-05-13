@@ -249,7 +249,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="hoyano.png" alt="">
+				<img src="hoyano.jpg" alt="">
 				<hgroup>
 					<h3>保屋野朗光</h3>
 					<p>
@@ -305,12 +305,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						<div>
 							<dt>基本給</dt>
 							<dd>
-								165,000円～
+								170,000～220,000円
 							</dd>
 						</div>
 						<div>
 							<dt>諸手当</dt>
-							<dd>手袋手当（2,000円）、作業手当（22,000～35,000円）、リーダー手当（10,000円）、皆勤手当（15,000円）、通勤手当（15,000円）</dd>
+							<dd>手袋手当（2,000円）、作業手当（18,000～22,000円）、リーダー手当（10,000円）、皆勤手当（15,000円）、通勤手当（15,000円）</dd>
 						</div>
 						<div>
 							<dt>昇給</dt>
