@@ -5,13 +5,14 @@ $company_base = './';
 $cur_page = 'top';
 include_once $company_base . '!data.php';
 include_once $highschool_base . 'circle.php';
+include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
 $title = $co['company_name'] . 'の新卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = $co['meta_keyword'];
-$description = $co['meta_desc']; 
+$keywords = '';//メタキーワードの追加
+$description = '';//メタディスクリプションの追加 
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -21,7 +22,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -72,8 +73,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="fv_area">
 	<img alt="" class="fv_image" src="firstview.jpg">
 	<hgroup>
-		<h1 class="catch"><?= $co['catch-copy'] ?></h1>
-		<p class="fv-tag"><?= $co['industry'] ?></p>
+		<h1 class="catch"><?= $co['catch_copy'] ?></h1>
+		<p class="fv-tag"><?= INDUSTRIES[$co['industry'][0]] ?></p>
 	</hgroup>
 </div>
 <section class="toc">
@@ -129,15 +130,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
     <?php endforeach; ?>
 </div>
 	<h3>取材担当者からのポイント！</h3>
-	<h4>「失敗歓迎!」な職場</h4>
+	<h4 class="point">「失敗歓迎!」な職場</h4>
 	<figure class="portrait">
-			<img src="sato.png" alt="">
-			<figcaption><span class="word">佐藤 愛華</span></figcaption>
-		</figure>
+		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
+		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
+	</figure>
 	<p>
-		　部活や授業で新しいことに挑戦するとき、最初から完璧にできる人は少ないですよね。学校では、先生や先輩がアドバイスをくれたり、一緒に練習してくれたりするから、少しずつ成長できます。<br>
-		　職場でも同じです。社員のほとんどが未経験で入社している内藤工業所では、失敗しても怒られることはありません。代わりに、「次はどうすればいいか一緒に考えよう」という雰囲気があります。<br>
-		　安心して挑戦できる環境で、自分の可能性を広げてみませんか。
+		部活や授業で新しいことに挑戦するとき、最初から完璧にできる人は少ないですよね。学校では、先生や先輩がアドバイスをくれたり、一緒に練習してくれたりするから、少しずつ成長できます。<br>
+		職場でも同じです。社員のほとんどが未経験で入社している内藤工業所では、失敗しても怒られることはありません。代わりに、「次はどうすればいいか一緒に考えよう」という雰囲気があります。<br>
+		安心して挑戦できる環境で、自分の可能性を広げてみませんか。
 	</p>
 </div>
 <section class="content" id="about_company">
@@ -146,15 +147,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		一つひとつがオリジナル！巨大フレームを作り上げる仕事
 	</h3>
 	<p>
-		　私たちは佐久市中込で、主に産業機械のフレームや筐体の製造、大型部品の加工を手掛けています。
+		私たちは佐久市中込で、主に産業機械のフレームや筐体の製造、大型部品の加工を手掛けています。
 	</p>
 	<div class="images">
 		<img src="introduce1.jpg" class="scene" alt="">
 		<img src="introduce2.jpg" class="scene" alt="">
 	</div>
 	<p>
-		　分厚い金属の板や鉄骨を設計図に合わせて切断し、四角形に組み上げて溶接したり、ボルトで止めたりして、フレームの形を作ります。<br>
-		　言葉でいうと簡単ですが、鉄骨は1本あたり数十kgありますし、溶接をすると形が歪んでしまうこともあるので、設計図通りに作るにはいろいろな工夫が必要です。
+		分厚い金属の板や鉄骨を設計図に合わせて切断し、四角形に組み上げて溶接したり、ボルトで止めたりして、フレームの形を作ります。<br>
+		言葉でいうと簡単ですが、鉄骨は1本あたり数十kgありますし、溶接をすると形が歪んでしまうこともあるので、設計図通りに作るにはいろいろな工夫が必要です。
 	</p>
 	<div class="images grid-img">
 		<img src="job_yousetsu/yousetsu2.jpg" class="scene" alt="">
@@ -162,14 +163,14 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="job_yousetsu/yousetsu1.jpg" class="scene" alt="">
 	</div>
 	<p>
-		　最後に塗装をして完成です。
+		最後に塗装をして完成です。
 	</p>
 	<div class="images">
 		<img src="fukitsuke.jpg" class="scene" alt="">
 	</div>
 	<p>
-		　作っているものは一点物ばかりなので、毎回みんなで考えながら作業に取り組んでいきます。新しいことに積極的に挑戦できる人や、困ったときにすぐ相談できる人に向いている仕事だと思います。<br>
-		　主要取引先には、株式会社ステック、パナソニックコネクト株式会社、ミマキエンジニアリングなどがあり、ものづくりを通して地域産業の発展に貢献することを大切にしています。
+		作っているものは一点物ばかりなので、毎回みんなで考えながら作業に取り組んでいきます。新しいことに積極的に挑戦できる人や、困ったときにすぐ相談できる人に向いている仕事だと思います。<br>
+		主要取引先には、株式会社ステック、パナソニックコネクト株式会社、ミマキエンジニアリングなどがあり、ものづくりを通して地域産業の発展に貢献することを大切にしています。
 	</p>
 </section>
 <section id="business" class="content">
@@ -177,7 +178,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="firstview.jpg" alt="">
+				<div class="inner">
+					<img src="seikan.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>製缶溶接</h3>
 					<p>
@@ -189,7 +192,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="gomen.jpg" alt="">
+				<div class="inner">
+					<img src="gomen.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>五面加工</h3>
 					<p>
@@ -201,7 +206,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="anaake.jpg" alt="">
+				<div class="inner">
+					<img src="anaake.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>穴あけ加工</h3>
 					<p>
@@ -213,7 +220,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="fukitsuke.jpg" alt="">
+				<div class="inner">
+					<img src="fukitsuke.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>吹き付け塗装</h3>
 					<p>
@@ -225,7 +234,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="robot.jpg" alt="">
+				<div class="inner">
+					<img src="robot.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>ロボット溶接</h3>
 					<p>
@@ -271,20 +282,30 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<p>平均有給取得日数</p>
 			<p class="num"><span>10</span>日</p>
 		</li>
-		<li class="circle">
-			<p>育児休暇率</p>
-			<div class="one">
-				<p class="num"><span>0</span>%</p>
-			</div>
-		</li>
-		<li class="circle">
-			<p>新卒・中途の比率</p>
-			<div class="two">
-				<p class="num"><span>1:9</span></p>
-			</div>
-		</li>
 	</ul>
 	<ul class="fl_con">
+	<li>
+			<div class="chart">
+				<p>育児休暇率</p>
+				<svg width="150" height="150" viewBox="0 0 200 200">
+					<?php create_donut_graph(100, 100, 100, 45, [
+						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
+						[ 'value' => 0.01, 'caption' => '取得者無し', 'color' => '#2378C7'],
+					]); ?>
+				</svg>
+			</div>
+		</li>
+		<li>
+			<div class="chart">
+				<p>新卒・中途の比率</p>
+				<svg width="150" height="150" viewBox="0 0 200 200">
+					<?php create_donut_graph(100, 100, 100, 45, [
+						[ 'value' => 90, 'caption' => '新卒9', 'color' => '#2378C7'],
+						[ 'value' => 10, 'caption' => '中途1', 'color' => '#F34444'],
+					]); ?>
+				</svg>
+			</div>
+		</li>
 		<li>
 			<div class="chart">
 				<p>男女比</p>
@@ -326,13 +347,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 87, 'caption' => "長野", 'color' => '#B2CF3E'],
-							[ 'value' => 23, 'caption' => '神奈川・山形', 'color' => '#FEE929'],
+							[ 'value' => 87, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 23, 'caption' => '県外', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
 		</li>
-	</ul>
+	</ul>	
 </section>
 <section class="content" id="company_info">
 	<h2>会社概要</h2>
@@ -344,7 +365,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>業種</dt>
-			<dd><?= $co['industry']?></dd>
+			<dd><?= INDUSTRIES[$co['industry'][0]] ?></dd>
 		</div>
 		<div>
 			<dt>事業内容</dt>
@@ -368,7 +389,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>本社所在地</dt>
-			<dd><?= $co['post-code']?><br><?= $co['adress']?><br>
+			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.3819080239614!2d138.46759807650105!3d36.254505972407784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dcb5aeb822259%3A0xbdfb0d798128c345!2z5YaF6Jek5bel5qWt5omA!5e0!3m2!1sja!2sjp!4v1738231241938!5m2!1sja!2sjp" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
@@ -388,35 +409,49 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<h3>仕事はゲームと一緒！？</h3>
 		<figure class="portrait">
 			<img src="president_p.jpg" alt="">
-			<figcaption><span class="word">内藤央</span></figcaption>
+			<figcaption><span class="name">内藤央</span></figcaption>
 		</figure>
 		<p>
-			　みなさんは、初めてスマホを使ったときや新しいゲームを始めたとき、「難しかったらどうしよう」と思ったことがありますか？「どんなことができるのかな」とわくわくした人が多いのではないでしょうか。<br>
-			　簡単すぎるゲームが物足りないのと同じで、少しずつ挑戦しながらレベルアップしていくのが楽しいですよね。
+			みなさんは、初めてスマホを使ったときや新しいゲームを始めたとき、「難しかったらどうしよう」と思ったことがありますか？「どんなことができるのかな」とわくわくした人が多いのではないでしょうか。<br>
+			簡単すぎるゲームが物足りないのと同じで、少しずつ挑戦しながらレベルアップしていくのが楽しいですよね。
 		</p>
 		<p>
-			　実は、仕事もこれと似ています。ゲームのチュートリアルのように1つずつ新しいスキルを身につけながら挑戦を重ねることでどんどん成長していけます。機械の操作方法や溶接のコツを学び、自分の「レベル」を上げていけば、さらに面白いことに挑戦できます。<br>
-			　一緒にスキルを高め合える仲間たちが、あなたを待っています！ 
+			実は、仕事もこれと似ています。ゲームのチュートリアルのように1つずつ新しいスキルを身につけながら挑戦を重ねることでどんどん成長していけます。機械の操作方法や溶接のコツを学び、自分の「レベル」を上げていけば、さらに面白いことに挑戦できます。<br>
+			一緒にスキルを高め合える仲間たちが、あなたを待っています！ 
 		</p>
 	</div>
 </section>
 <div class="visit content">
     <h2>応募前見学について</h2>
-    <dl class="speclist">
-        <?php foreach ($visit as $plan): ?>
-        <div class="visit-item">
-            <h3><?= $plan['about'] ?>について</h3>
-						<div>
-							<dt>開催日</dt>
-							<dd><?= $plan['date'] ?></dd>
-						</div>
-						<div>
-							<dt>内容</dt>
-							<dd><?= $plan['content'] ?></dd>
-						</div>
+		<dl class="speclist">
+    <?php foreach ($visit as $plan): ?>
+    <div class="visit-item">
+        <h3><?= $plan['about'] ?>について</h3>
+        <div>
+            <dt>開催日</dt>
+            <dd>
+				<ul>
+						<?php 
+						if (is_array($plan['date'])) {
+								foreach ($plan['date'] as $date) {
+										if (is_array($date)) { 
+											echo "<li>" . $date['name'] . "</li>";
+										}
+								}
+						} else {
+								echo "<li>" . $plan['date'] . "</li>";
+						}
+						?>
+				</ul>
+            </dd>
         </div>
-        <?php endforeach; ?>
-    </dl>
+        <div>
+            <dt>内容</dt>
+            <dd><?= $plan['content'] ?></dd>
+        </div>
+    </div>
+    <?php endforeach; ?>
+</dl>
 	<a href="apply/#entry" class="flag_btn_entry">
 		<img src="<?= $highschool_base ?>flag.png" class="flag">
 		<span>
@@ -450,8 +485,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<script src="../tab.js"></script>
-<script src="../page_nav.js"></script>
+<script src="../../tab.js"></script>
+<script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 </body>
