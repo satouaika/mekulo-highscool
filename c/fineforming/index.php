@@ -5,6 +5,7 @@ $company_base = './';
 $cur_page = 'top';
 include_once $company_base . '!data.php';
 include_once $highschool_base . 'circle.php';
+include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
@@ -72,8 +73,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="fv_area">
 	<img alt="" class="fv_image" src="fv_2.jpg">
 	<hgroup>
-		<h1 class="catch"><?= $co['catch-copy'] ?></h1>
-		<p class="fv-tag"><?= $co['industry'] ?></p>
+		<h1 class="catch"><?= $co['catch_copy'] ?></h1>
+		<p class="fv-tag"><?= INDUSTRIES[$co['industry'][0]] ?></p>
 	</hgroup>
 </div>
 <section class="toc">
@@ -94,10 +95,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <div class="about-com content" id="company_gallery">
 	<h2>
-		アルミの可能性を広げる部品メーカー、ファイミンフォーミング
+		アルミの可能性を広げる部品メーカー、ファインフォーミング
 	</h2>
 	<p>
-		ファイミンフォーミングの採用ページをご覧いただき、ありがとうございます。<br>
+		ファインフォーミングの採用ページをご覧いただき、ありがとうございます。<br>
 		私たちは、上田市真田町で、「アルミ鋳造鍛造法」という独自の技術を駆使し、自動車部品やマウンテンバイクなどの自転車部品を製造しているアルミ部品メーカーです。
 	</p>
 	<p>
@@ -108,14 +109,14 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		そんなファインフォーミングの仕事を、ぜひ覗いてみてください。
 	</p>
 	<div id="gallery">
-		<div class="gallery_window">
+	<div class="gallery_window">
 			<img src="contents_05.jpg" alt="" class="fs show">
 			<img src="contents_02.jpg" alt="" class="sc">
 			<img src="contents_03.jpg" alt="" class="th">
 			<img src="contents_04.jpg" alt="" class="fo">
 		</div>
 		<div class="gallery_index">
-			<img src="contents_05.jpg" alt="" class="fs show">
+			<img src="contents_05.jpg" alt="" class="fs">
 			<img src="contents_02.jpg" alt="" class="sc">
 			<img src="contents_03.jpg" alt="" class="th">
 			<img src="contents_04.jpg" alt="" class="fo">
@@ -135,11 +136,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
     <?php endforeach; ?>
 </div>
 	<h3>取材担当者からのポイント！</h3>
-	<h4>『職人技』の世界！</h4>
+	<h4 class="point">『職人技』の世界！</h4>
 	<figure class="portrait">
-			<img src="noguchi.png" alt="">
-			<figcaption><span class="word">野口</span></figcaption>
-		</figure>
+		<img src=<?= $highschool_base . WRITER['noguchi']['image'] //担当者名をここに記入?> alt="">
+		<figcaption><span class="name"><?= WRITER['noguchi']['name']//担当者名をここに記入 ?></span></figcaption>
+	</figure>
 	<p>
 		「大きな機械を操りながら、ダイナミックにモノをつくる」<br>
 		そんな仕事、ちょっとワクワクしませんか？<br>
@@ -197,21 +198,25 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="work01.jpg" alt="">
+				<div class="inner">
+					<img src="work01.jpg" alt="">
+				</div>
 				<hgroup>
-					<h3>鋳造</h3>
+					<h3>鍛造</h3>
 					<p>
-						金属をドロドロに溶かし、型に流し込んで製品を製造する技法です。当社では、アルミを使っています。
+						熱した金蔵に、強い圧力をかけて形を整え、製品を製造する技法です。当社は鋳造された部品をさらに鍛造し、より強い部品を作っています。この鋳造×鍛造を組み合わせて開発した技法を「アルミ鋳造鍛造法」と名付け、全国で唯一当社のみが扱える技術です。
 					</p>
 				</hgroup>
 			</div>
-			<p>鋳造</p>
+			<p>鍛造</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="work02.png" alt="">
+				<div class="inner">
+					<img src="work02.jpg" alt="">
+				</div>
 				<hgroup>
-					<h3>鍛造</h3>
+				<h3>鍛造</h3>
 					<p>
 						熱した金蔵に、強い圧力をかけて形を整え、製品を製造する技法です。当社は鋳造された部品をさらに鍛造し、より強い部品を作っています。この鋳造×鍛造を組み合わせて開発した技法を「アルミ鋳造鍛造法」と名付け、全国で唯一当社のみが扱える技術です。
 					</p>
@@ -271,27 +276,49 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="fl_con">
 		<li>
 			<div class="chart">
-				<p>男女比</p>
+				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
-					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 75, 'caption' => '男性：7', 'color' => '#0062B5'],
-						[ 'value' => 25, 'caption' => '女性：3', 'color' => '#FF6E7E'],
+					<?php create_donut_graph(100, 100, 100, 45, [
+					[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
+					[ 'value' => 0.01, 'caption' => '取得者無し', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
 		</li>
 		<li>
-		<div class="chart">
-			<p>年齢構成</p>
-			<svg width="150" height="150" viewBox="0 0 200 200">
-				<?php create_donut_graph(100, 100, 100, 40, [
-					[ 'value' => 60, 'caption' => '20代', 'color' => '#0073B7'],
-					[ 'value' => 110, 'caption' => '30代', 'color' => '#00AEEF'],
-					[ 'value' => 50, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 60, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 60, 'caption' => '60代', 'color' => '#008C4A'],
-				]); ?>
-			</svg>
+			<div class="chart">
+				<p>新卒・中途の比率</p>
+				<svg width="150" height="150" viewBox="0 0 200 200">
+					<?php create_donut_graph(100, 100, 100, 45, [
+						[ 'value' => 90, 'caption' => '新卒9', 'color' => '#2378C7'],
+						[ 'value' => 10, 'caption' => '中途1', 'color' => '#F34444'],
+					]); ?>
+				</svg>
+			</div>
+		</li>
+		<li>
+			<div class="chart">
+				<p>男女比</p>
+				<svg width="150" height="150" viewBox="0 0 200 200">
+					<?php create_donut_graph(100, 100, 100, 40, [
+						[ 'value' => 90, 'caption' => '男性：7', 'color' => '#0062B5'],
+						[ 'value' => 10, 'caption' => '女性：3', 'color' => '#FF6E7E'],
+					]); ?>
+				</svg>
+			</div>
+		</li>
+		<li>
+			<div class="chart">
+				<p>年齢構成</p>
+				<svg width="150" height="150" viewBox="0 0 200 200">
+					<?php create_donut_graph(100, 100, 100, 40, [
+						[ 'value' => 60, 'caption' => '20代', 'color' => '#0073B7'],
+						[ 'value' => 110, 'caption' => '30代', 'color' => '#00AEEF'],
+						[ 'value' => 50, 'caption' => '40代', 'color' => '#00B398'],
+						[ 'value' => 60, 'caption' => '50代', 'color' => '#009F6B'],
+						[ 'value' => 60, 'caption' => '60代', 'color' => '#008C4A'],
+					]); ?>
+				</svg>
 		</div>
 		<li>
 			<div class="chart" >
@@ -311,11 +338,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						<?php create_donut_graph(100, 100, 100, 40, [
 							[ 'value' => 100, 'caption' => "長野", 'color' => '#B2CF3E'],
 							[ 'value' => 0.001, 'caption' => '', 'color' => '#FEE929'],
-													]); ?>
+							]); ?>
 					</svg>
 				</div>
 		</li>
-	</ul>
+	</ul>	
 </section>
 <section class="content" id="company_info">
 	<h2>会社概要</h2>
@@ -327,7 +354,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>業種</dt>
-			<dd><?= $co['industry']?></dd>
+			<dd><?= INDUSTRIES[$co['industry'][0]] ?></dd>
 		</div>
 		<div>
 			<dt>事業内容</dt>
@@ -345,12 +372,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>本社所在地</dt>
-			<dd><?= $co['post-code']?><br><?= $co['adress']?><br>
+			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9483.096910591945!2d138.2912041425021!3d36.4565768338294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dbd8a3c122eff%3A0xa90e5998351f1ec2!2z5pyJ6ZmQ5Lya56S-44OV44Kh44Kk44Oz44OV44Kp44O844Of44Oz44Kw!5e0!3m2!1sja!2sjp!4v1742978060989!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-			</dd>
+				</dd>
 		</div>
 		<div>
-			<dt>本社電話番号</dt>
+		<dt>本社電話番号</dt>
 			<dd>0268-61-5002</dd>
 		</div>
 		<div>
@@ -360,7 +387,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</dl>
 </section>
 <section class="content" id="from_president">
-	<h2>会社からのメッセージ</h2>
+<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
 		<h3>見出しが入ります</h3>
 		<figure class="portrait">
@@ -377,21 +404,35 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <div class="visit content">
     <h2>応募前見学について</h2>
-    <dl class="speclist">
-        <?php foreach ($visit as $plan): ?>
-        <div class="visit-item">
-            <h3><?= $plan['about'] ?>について</h3>
-						<div>
-							<dt>開催日</dt>
-							<dd><?= $plan['date'] ?></dd>
-						</div>
-						<div>
-							<dt>内容</dt>
-							<dd><?= $plan['content'] ?></dd>
-						</div>
+		<dl class="speclist">
+    <?php foreach ($visit as $plan): ?>
+    <div class="visit-item">
+        <h3><?= $plan['about'] ?>について</h3>
+        <div>
+            <dt>開催日</dt>
+            <dd>
+				<ul>
+						<?php 
+						if (is_array($plan['date'])) {
+								foreach ($plan['date'] as $date) {
+										if (is_array($date)) { 
+											echo "<li>" . $date['name'] . "</li>";
+										}
+								}
+						} else {
+								echo "<li>" . $plan['date'] . "</li>";
+						}
+						?>
+				</ul>
+            </dd>
         </div>
-        <?php endforeach; ?>
-    </dl>
+        <div>
+            <dt>内容</dt>
+            <dd><?= $plan['content'] ?></dd>
+        </div>
+    </div>
+    <?php endforeach; ?>
+</dl>
 	<a href="apply/#entry" class="flag_btn_entry">
 		<img src="<?= $highschool_base ?>flag.png" class="flag">
 		<span>
@@ -425,8 +466,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<script src="../tab.js"></script>
-<script src="../page_nav.js"></script>
+<script src="../../tab.js"></script>
+<script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 </body>
