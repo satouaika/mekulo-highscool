@@ -10,7 +10,7 @@ include_once $highschool_base . 'circle.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$description = '株式会社山口電気の応募前見学ページです。';//メタディスクリプションをここに挿入 
+$description = '信電工株式会社の応募前見学ページです。';//メタディスクリプションをここに挿入 
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -64,35 +64,30 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_wr">
-	<img alt="" class="fv_image" src="../firstview.jpg">
+	<img alt="" class="fv_image" src="../contents12.jpg">
 	<div class="apply">
 		<h1 class="catch"><?= $co['company_name'] ?></h1>
 		<p class="tag">応募前見学ページ</p>
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span>電気工事士の“リアル”を体感しよう！</span></p>
+	<p class="catchcopy"><span>リアルな仕事現場を見られるかも！</span></p>
 	<p class="cont">
-		山口電気の応募前見学では、実際に働く電気工事士の姿を見学できます。<br>
-		日によっては、実際の現場に同行できることも。図面を確認しながらケーブルを通したり、コンセントを取り付けたり──テレビやネットではわからない「リアルな現場」に触れられるチャンスです。<br>
-		もし現場に出られない日でも、心配はいりません。社内の倉庫スペースで、実際に使っている工具や資材を見ながら、作業の流れや必要なスキルについて詳しくご案内します。<br>
-		「どんな道具を使うの？」「現場の空気ってどんな感じ？」<br>
-		気になったことは、その場でどんどん聞いてください！
+		見学では、信電工の仕事について、詳しくご説明します。
+		その日に行なっている工事の内容によっては、実際の現場に足を運び、作業の様子を間近で見ることができる場合もあります。
+		教科書や映像ではわからない、現場ならではのリアルな空気を感じてみてください。
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年7月29日（火） 9時00分～、14時00分～</li>
-			<li>2025年8月5日（火） 14時00分～、14時00分～</li>
-			<li>その他の日程も、お気軽にお問い合わせください。</li>
+			<li>2025年8月7日（木）9時30分～</li>
+			<li>2025年8月8日（金）9時30分～</li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>会社説明<span>10分程度</span></li>
-			<li>現場見学<span>30分程度</span></li>
-			<li>体験<span>30分程度</span></li>
+			<li>会社の説明<span>１５分～３０分</span></li>
 		</ul>
 	</div>
 	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
