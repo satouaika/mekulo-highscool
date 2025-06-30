@@ -744,7 +744,7 @@ id="recruitment_requirements">
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>1日</dd>
+					<dd>5日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
