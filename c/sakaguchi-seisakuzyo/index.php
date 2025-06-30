@@ -144,7 +144,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		この機械は、溶かしたプラスチックを型に流し込み、冷やして固めて形を作ります。みなさんの身の回りのプラスチック製品――例えばペットボトルのキャップやゲーム機のパーツなども、この「射出成形機」で作られているんです。 
 	</p>
 	<div class="images">
-		<img src="gallery2.jpg" class="scene" alt="">
+		<img src="pura.jpg" class="scene" alt="">
 	</div>
 	<p>
 		「そんなプラスチック製品の“もと”となる機械を作っているのが、私たち坂口製作所です！ 
@@ -156,7 +156,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		私たちの仕事は、「機械組立」と「電装組立」の２つに分かれています。 <br>
 		『機械組立』<br>
 		部品を組み合わせて、自分より大きな機械を組み立てていく仕事です。 <br>
-		一つひとつの部品が大きいので、クレーンを使って運ぶことも多いです
+		一つひとつの部品が大きいので、クレーンを使って運ぶことも多いです。
 	</p>
 	<div class="images">
 		<img src="article4.jpg" class="scene" alt="">
@@ -168,7 +168,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="images">
 		<img src="article6.jpg" class="scene" alt="">
 		<img src="article7.jpg" class="scene" alt="">
-		<img src="article1.jpg" class="scene" alt="">
 	</div>
 	<p>
 		機械組立で一番難しいのは、「ボルトを締める強さ」。経験を積みながら、“感覚”を覚えていきます。<br> 
