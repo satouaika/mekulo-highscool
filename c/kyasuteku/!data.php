@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県小県郡青木村大字夫神1282',
     'homepage' => 'https://castec.jp/',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.3694332,//緯度
-    'longitude' => 138.2142701,//経度
+    'latitude' => 36.3654326,//緯度
+    'longitude' => 138.1280614,//経度
     'human' => [
         'image' => 'ichikawa.png',
         'name' => '市川 祐己',
@@ -35,7 +35,7 @@ $visit = [
         ],
         'catch_copy' => '',
         'visit_img' =>'firstview.jpg',
-        'content' => '',
+        'content' => '応募前見学として参加する方は参加申し込みをしてください。',
     ],    
 ];
 

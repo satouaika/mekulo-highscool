@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県東御市滋野甲2211-3',
     'homepage' => 'https://www.alpha-design.co.jp/',
     'logo_filename' => 'logo.svg',
-    'latitude' => 36.3694332,//緯度
-    'longitude' => 138.2142701,//経度
+    'latitude' => 36.3461105,//緯度
+    'longitude' => 138.3808587,//経度
     'human' => [
         'image' => 'sato.png',
         'name' => '佐藤',
@@ -23,19 +23,19 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '', 
+                'name' => '',
                 'date' => '',
                 'deadline' => '',//募集締切日
             ],
             [
-                'name' => '', 
+                'name' => '',
                 'date' => '',
                 'deadline' => '',//募集締切日
             ],
         ],
         'catch_copy' => '',
         'visit_img' =>'firstview.jpg',
-        'content' => '',
+        'content' => '応募前見学として参加する方は参加申し込みをしてください。',
     ],    
 ];
 
