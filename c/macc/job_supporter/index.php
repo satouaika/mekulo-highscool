@@ -169,16 +169,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="gallery01.jpg" alt="">
 	</li>
 	<li>
+		<img src="../contents02.jpg" alt="">
+	</li>
+	<li>
 		<img src="gallery02.jpg" alt="">
 	</li>
 	<li>
 		<img src="gallery03.jpg" alt="">
-	</li>
-	<li>
-		<img src="gallery04.jpg" alt="">
-	</li>
-	<li>
-		<img src="../contents02.jpg" alt="">
 	</li>
 	<li>
 		<img src="../busi01.jpg" alt="">
@@ -186,6 +183,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<li>
 		<img src="gallery05.JPG" alt="">
 	</li>
+	<li>
+		<img src="gallery04.jpg" alt="">
+	</li>
+	
 		</ul>
 		<div class="button left_btn">&lt;</div>
 		<div class="button right_btn">&gt;</div>
