@@ -65,7 +65,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_area">
-	<img alt="" class="fv_image" src="first-view.jpg">
+	<img alt="" class="fv_image" src="first_view.jpg">
 	<hgroup>
 		<h1 class="catch"><?= $co['catch_copy'] ?></h1>
 		<p class="fv-tag"><?= INDUSTRIES[$co['industry'][0]] ?></p>
@@ -92,7 +92,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		企業に伴走し、税金と会計の仕事で支える
 	</h2>
 	<p>
-		税理士法人MACCは、「他社（者）の幸せ」を税金と会計の専門知識を使って実現している会社です。チームで協力し、お客様や仲間の笑顔を追求しています。税理士事務所というと「難しそう」と思うかもしれません。でも、「人の役に立ちたい」「社会に貢献する仕事をしたい」という気持ちがあれば、未経験でも大丈夫。あなたの可能性をMACCで広げませんか？
+		税理士法人MACCは、税金と会計の専門知識de
+		「他社（者）の幸せ」を実現している会社です。チームで協力し、お客様や仲間の笑顔を追求しています。税理士事務所というと「難しそう」と思うかもしれません。でも、「人の役に立ちたい」「社会に貢献する仕事をしたい」という気持ちがあれば、未経験でも大丈夫。あなたの可能性をMACCで広げませんか？
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
@@ -378,7 +379,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
 		<figure class="portrait">
-			<img src="mitsui.jpg" alt="">
+			<img src="mitsui1.jpg" alt="">
 			<figcaption><span class="name">三井和典</span></figcaption>
 		</figure>
 		<p>
@@ -432,7 +433,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>募集職種</h2>
 	<ul class="image_navi">
 		<li>
-			<a href="<?= $company_base ?>job_surpporter/">
+			<a href="<?= $company_base ?>job_supporter/">
 				<figure>
 					<img src="<?= $company_base ?>job_supporter/first-view.jpg" alt="">
 					<figcaption>企業サポーター</figcaption>
