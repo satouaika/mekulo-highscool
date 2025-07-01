@@ -546,7 +546,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>
