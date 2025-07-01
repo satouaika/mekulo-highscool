@@ -65,7 +65,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_area">
-	<img alt="" class="fv_image" src="firstview.jpg">
+	<img alt="" class="fv_image" src="first-view.jpg">
 	<hgroup>
 		<h1 class="catch"><?= $co['catch_copy'] ?></h1>
 		<p class="fv-tag"><?= INDUSTRIES[$co['industry'][0]] ?></p>
@@ -92,20 +92,20 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		企業に伴走し、税金と会計の仕事で支える
 	</h2>
 	<p>
-		税理士法人MACCは、「他社（者）の幸せ」を税金と会計の専門知識を使って実現している会社です。チームで協力し、お客様や仲間の笑顔を追求しています。税理士事務所というと「難しそう」と思うかもしれません。でも、「人の役に立ちたい」「社会に貢献する仕事をしたい」という気持ちがあれば、未経験でも大丈夫。あなたの可能性をMACCで広げまませんか？
+		税理士法人MACCは、「他社（者）の幸せ」を税金と会計の専門知識を使って実現している会社です。チームで協力し、お客様や仲間の笑顔を追求しています。税理士事務所というと「難しそう」と思うかもしれません。でも、「人の役に立ちたい」「社会に貢献する仕事をしたい」という気持ちがあれば、未経験でも大丈夫。あなたの可能性をMACCで広げませんか？
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
-			<img src="gallery1.jpg" alt="" class="fs show">
-			<img src="gallery2.jpg" alt="" class="sc">
-			<img src="gallery3.jpg" alt="" class="th">
-			<img src="gallery4.jpg" alt="" class="fo">
+			<img src="gallery01.jpg" alt="" class="fs show">
+			<img src="busi03.jpg" alt="" class="sc">
+			<img src="gallery02.jpg" alt="" class="th">
+			<img src="gallery03.jpg" alt="" class="fo">
 		</div>
 		<div class="gallery_index">
-			<img src="gallery1.jpg" alt="" class="fs">
-			<img src="gallery2.jpg" alt="" class="sc">
-			<img src="gallery3.jpg" alt="" class="th">
-			<img src="gallery4.jpg" alt="" class="fo">
+			<img src="gallery01.jpg" alt="" class="fs">
+			<img src="busi03.jpg" alt="" class="sc">
+			<img src="gallery02.jpg" alt="" class="th">
+			<img src="gallery03.jpg" alt="" class="fo">
 		</div>
 	</div>
 	<h3>募集職種</h3>
@@ -143,19 +143,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		私たちは、長野市にある税理士法人MACCです。地域の企業の悩みを解決するプロのチームの会社です。
 	</p>
 	<div class="images">
-		<img src="factory.jpg" class="scene" alt="">
+		<img src="contents01.jpg" class="scene" alt="">
 	</div>
 	<p>
 		長野の企業がもっと輝けるように、経営のサポートをしています。売上アップや経営改善など、企業の「困った」を解決し、成長を応援することで、地域全体を盛り上げていくのが私たちの仕事です。
 	</p>
 	<div class="images">
-		<img src="introduce.jpg" class="scene" alt="">	
+		<img src="contents02.jpg" class="scene" alt="">	
 	</div>
 	<p>
 		税理士やコンサルタントなど、様々な専門家がチームとなって、企業の成長を支えています。企業の成長を支え、感謝されることは、とてもやりがいのある仕事です。
 	</p>
 	<div class="images">
-		<img src="introduce.jpg" class="scene" alt="">	
+		<img src="contents03.jpg" class="scene" alt="">	
 	</div>
 	<p>
 		長野の未来を創る、社会貢献度の高い仕事を、私たちと一緒にしませんか？専門知識を身につけ、自分自身も成長できる環境で、あなたの力を発揮してください。
@@ -167,7 +167,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="konpou.jpg" alt="">
+					<img src="busi01.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3></h3>
@@ -181,7 +181,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="ball.jpg" alt="">
+					<img src="busi02.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3></h3>
@@ -195,7 +195,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="putter.jpg" alt="">
+					<img src="busi03.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3></h3>
@@ -209,7 +209,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="tissue.jpg" alt="">
+					<img src="busi04.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3></h3>
@@ -224,33 +224,33 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="numeric_data">
 	<h2>数字で見る当社</h2>
-	<p class="remark">（2025年1月1日現在）</p>
+	<p class="remark">（2025年6月1日現在）</p>
 	<div class="large">
 		<p>売上高</p>
-		<p class="num"><span>3</span>億円</p>
-		<p class="year">※2024年実績</p>
+		<p class="num"><span>2.6</span>億円</p>
+		<p class="year"></p>
 	</div>
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
-			<p class="num"><span>50</span>歳</p>
+			<p class="num"><span>33</span>歳</p>
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
-			<p class="num"><span>10</span>年</p>
+			<p class="num"><span>9</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
-			<p class="num"><span>20</span>時間</p>
+			<p class="num"><span>28</span>時間</p>
 		</li>
 		<li class="small">
 			<p>年間休日</p>
-			<p class="num"><span>113</span>日</p>
-			<p class="at">※2025年計画</p>
+			<p class="num"><span>125</span>日</p>
+			<p class="at"></p>
 		</li>
 		<li class="small">
 			<p>設立年</p>
-			<p class="num"><span>1961</span>年</p>
+			<p class="num"><span>2023</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
@@ -263,8 +263,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 0.01, 'caption' => '取得者無し', 'color' => '#2378C7'],
+						[ 'value' => 60, 'caption' => '', 'color' => '#d9d9d9'],
+						[ 'value' => 40, 'caption' => '40%', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -274,8 +274,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 10, 'caption' => '新卒', 'color' => '#2378C7'],
-						[ 'value' => 90, 'caption' => '中途', 'color' => '#F34444'],
+						[ 'value' => 30, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 73, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -285,8 +285,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性', 'color' => '#FF6E7E'],
+						[ 'value' => 50, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 50, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -296,12 +296,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<p>年齢構成</p>
 			<svg width="150" height="150" viewBox="0 0 200 200">
 				<?php create_donut_graph(100, 100, 100, 40, [
-					[ 'value' => 10, 'caption' => "10代", 'color' => '#808080'],
-					[ 'value' => 20, 'caption' => '20代', 'color' => '#0073B7'],
-					[ 'value' => 30, 'caption' => '30代', 'color' => '#00AEEF'],
-					[ 'value' => 40, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 100, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 40, 'caption' => '60代', 'color' => '#008C4A'],
+					[ 'value' => 0.01, 'caption' => "", 'color' => '#808080'],
+					[ 'value' => 31, 'caption' => '20代', 'color' => '#0073B7'],
+					[ 'value' => 35, 'caption' => '30代', 'color' => '#00AEEF'],
+					[ 'value' => 15, 'caption' => '40代', 'color' => '#00B398'],
+					[ 'value' => 11, 'caption' => '50代', 'color' => '#009F6B'],
+					[ 'value' => 8, 'caption' => '60代', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
 		</div>
@@ -310,8 +310,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク100%", 'color' => '#E06A3A'],
-						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
+						[ 'value' => 35, 'caption' => "自転車", 'color' => '#E06A3A'],
+						[ 'value' => 75, 'caption' => '電車・バス', 'color' => '#D04255'],
+						[ 'value' => 0.01, 'caption' => '', 'color' => '#008C4A'],
 					]); ?>
 				</svg>
 			</div>
@@ -321,8 +322,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 87, 'caption' => "長野県内87%", 'color' => '#B2CF3E'],
-							[ 'value' => 13, 'caption' => '県外13%', 'color' => '#FEE929'],
+							[ 'value' => 87, 'caption' => "長野県内80%", 'color' => '#B2CF3E'],
+							[ 'value' => 13, 'caption' => '県外20%', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -331,7 +332,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="company_info">
 	<h2>会社概要</h2>
-	<img src="office.jpg" alt="" class="scene">
+	<img src="company.jpg" alt="" class="scene">
 	<dl class="speclist">
 		<div>
 			<dt>会社名</dt>
@@ -377,7 +378,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
 		<figure class="portrait">
-			<img src="president_p.jpg" alt="">
+			<img src="mitsui.jpg" alt="">
 			<figcaption><span class="name">三井和典</span></figcaption>
 		</figure>
 		<p>
@@ -431,10 +432,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>募集職種</h2>
 	<ul class="image_navi">
 		<li>
-			<a href="<?= $company_base ?>job_machineoperater/">
+			<a href="<?= $company_base ?>job_surpporter/">
 				<figure>
-					<img src="<?= $company_base ?>job_machineoperater/operater.jpg" alt="">
-					<figcaption>マシンオペレーター</figcaption>
+					<img src="<?= $company_base ?>job_supporter/first-view.jpg" alt="">
+					<figcaption>企業サポーター</figcaption>
 				</figure>
 			</a>
 		</li>

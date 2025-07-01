@@ -77,12 +77,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 }
 </script>
 </head>
-<body class="newgrads highschool naganorezin">
+<body class="newgrads highschool macc">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="operater.jpg">
+    <img alt="" class="fv_image" src="first-view.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -129,7 +129,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		私たちが行う仕事は、簡単に言うと「会社のお金の管理と税金のサポート」です。会社や個人のお金の管理を助け、税金のことで困らないようにサポートします。会社が安心して事業を続けられるように、専門的な知識でサポートする仕事です。会社の成長を支え、地域経済に貢献する仕事です。
 	</p>
 	<div class="images">
-		<img src="operater1.jpg" alt="" class="scene">
+		<img src="contents01.jpg" alt="" class="scene">
 	</div>
 	<h3>
 		毎月の「健康診断」
@@ -138,7 +138,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		毎月会社を訪問し、お金の記録（帳簿）をチェックし、間違いがあれば、正しいやり方を分かりやすく教えます。その際、毎月の会社の成績表（業績報告書）を作り報告します。また、1年間の成績表（決算書）もまとめます。
 	</p>
 	<div class="images">
-		<img src="operater2.jpg" alt="" class="scene">
+		<img src="contents02.jpg" alt="" class="scene">
 	</div>
 	<p>
 		税金面では、企業が支払う各種税金の申告書を作り、お客さまにその内容を説明します。
@@ -150,14 +150,14 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		会社の現状を正確に伝えることが、私たちの大切な仕事です。会社の経営は良い時もあれば、悪い時もあります。悪い時ほどより詳しく現状をお伝えし、「今」を理解していただく必要があります。
 	</p>
 	<div class="images">
-		<img src="operater3.jpg" alt="" class="scene">
+		<img src="contents03.jpg" alt="" class="scene">
 	</div>
 	<h3>経営者の相談相手</h3>
 	<p>
 	    経営者さんの悩みを聞いたり、励ましたり、一緒に解決策を探したりします。多くの経営者さんには相談相手がいません。同じ仕事をしている人に相談できれば良いのですが、同業他社は競合相手です。腹を割って相談することが難しいのです。そんな経営者さんの相談相手となり、他の専門家と協力して、お客さまの会社をサポートします。
 	</p>
 	<div class="images">
-		<img src="operater4.jpg" alt="" class="scene">
+		<img src="contents04.jpg" alt="" class="scene">
 	</div>
 </section>
 <section class="g">
@@ -166,19 +166,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<div class="image_area">
 			<ul class="slides">
 			<li>
-		<img src="operater.jpg" alt="">
+		<img src="gallery01.jpg" alt="">
 	</li>
 	<li>
-		<img src="operater2.jpg" alt="">
+		<img src="gallery02.jpg" alt="">
 	</li>
 	<li>
-		<img src="operater3.jpg" alt="">
+		<img src="gallery03.jpg" alt="">
 	</li>
 	<li>
-		<img src="operater5.jpg" alt="">
+		<img src="gallery04.jpg" alt="">
 	</li>
 	<li>
-		<img src="../gallery4.jpg" alt="">
+		<img src="gallery05.jpg" alt="">
 	</li>
 		</ul>
 		<div class="button left_btn">&lt;</div>
@@ -191,7 +191,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="kobayashi.jpg" alt="">
+				<img src="maki.jpg" alt="">
 				<hgroup>
 					<h3>牧さん</h3>
 					<p>
@@ -265,7 +265,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>必要な知識・技能等</dt>
-					<dd>不問</dd>
+					<dd>あれば尚可<br>
+						エクセル、ワードのパソコン操作、日商簿記２級</dd>
 				</div>
 			</dl>
 			<h3>賃金・手当</h3>
@@ -358,7 +359,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd>確定居室年金</dd>
+					<dd>確定拠出年金</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
@@ -481,8 +482,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						2025年7月29日（火）14時00分～<br>
-						2025年8月5日（火）14時00分～
+						随時開催
 					</dd>
 				</div>
 				<div>
@@ -514,7 +514,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</a>
 	</div>
 </section>		
-<section class="g nextpage">
+<!--<section class="g nextpage">
     <h2>その他の職種を見てみる</h2>
     <ul class="image_navi">
         <?php foreach ($occupation as $key => $prop): ?>
@@ -530,7 +530,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
             <?php endif; ?>
         <?php endforeach; ?>
     </ul>
-</section>			
+</section>	-->		
 			</ul>
 		</section>
 	</main>
