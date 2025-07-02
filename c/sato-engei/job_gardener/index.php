@@ -33,7 +33,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -208,7 +208,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="images grid-images">
 		<img src="contents11.jpg" alt="" class="scene">
 		<img src="contents12.jpg" alt="" class="scene">
-		<img src=".jpg" alt="" class="scene">
 	</div>
 	<p>
 		全く同じ形の植物はなく、特に木の枝を切りそろえる「剪定」では、職人のセンスが必要になります。職人によって、完成形も違います。<br>
@@ -605,7 +604,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php //include $base . '../footer.php' ?>
+<?php include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>

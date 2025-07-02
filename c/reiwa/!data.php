@@ -6,7 +6,7 @@ $co = [
     'catch_copy' => '心で組む、安全の土台',
     'industry' => ['D'],
     'post_code' => '386-2202',
-    'address' => '長野県上田市真田町本原1039',
+    'address' => '長野県上田市真田町本原799-2',
     'homepage' => '',
     'logo_filename' => 'logo.png',
     'latitude' => 36.43306103,//緯度
@@ -17,19 +17,6 @@ $co = [
     ]
 ];
 
-// 募集職種
-$occupation = [
-    'job_genba' => [
-        'name' => '足場とび',
-        'url' => 'job_kensetsu',
-        'catch_copy' => '電気を「ためて、使う」、新しいインフラを創造するチーム',
-        'work' => ['281'],
-        'image' => 'firstview.jpg',
-        'latitude' => 36.43306103,//緯度
-        'longitude' => 138.29903425,//経度
-        'MBTI' =>  '',
-    ],
-];
 
 // 応募前見学
 $visit = [

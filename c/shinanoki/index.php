@@ -19,7 +19,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -253,7 +253,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p class="remark">（2025年1月1日現在）</p>
 	<div class="large">
 		<p>売上高</p>
-		<p class="num"><span>2</span>億<span>4</span>千万円</p>
+		<p class="num"><span>2</span>億<span>8</span>千万円</p>
 		<p class="year">※2024年実績</p>
 	</div>
 	<ul class="gr_con">
@@ -493,5 +493,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="<?= $highschool_base ?>tab.js"></script>
 <script src="<?= $highschool_base ?>page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php //include $base . '../footer.php' ?>
+<?php include $base . '../footer.php' ?>
 </body>

@@ -21,7 +21,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -115,19 +115,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<img src="fourth.jpg" alt="" class="fo">
 		</div>
 	</div>
-	<h3>募集職種</h3>
-<div class="job_btn">
-    <?php foreach ($occupation as $job): ?>
-        <li>
-            <a href="<?= $company_base . $job['url'] ?>/">
-                <p class="job_name"><?= $job['name'] ?></p>
-            </a>
-            <div class="arrow">
-                <img src="<?= $highschool_base ?>polygon.png" alt="">
-            </div>
-        </li>
-    <?php endforeach; ?>
-</div>
 	<h3>取材担当者からのポイント！</h3>
 	<figure class="portrait">
 		<img src=<?= $highschool_base . WRITER['ichikawa']['image'] //担当者名をここに記入?> alt="">
@@ -159,7 +146,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h3>令和での働き方</h3>
 	<p>
 		足場の組立や解体は、建物の工事全般に欠かせない大切な仕事です。<br>
-		作業は、板状や棒状の金属部品を決まった場所に組み立てていきます。部品と部品をつなげるときは、「くさび」という細長い金属の部品を使います。くさびにはデコボコがついていて、それをハンマーで打ち込むことでしっかり固定します。解体するときは、ハンマーで反対からくさびを打つことで、すぐに取り外せます。<br>
+		作業は、板状や棒状の金属部品を決まった場所に組み立てていきます。部品と部品をつなげるときは、「手すり」という細長い金属の部品を使います。手すりには「くさび」がついていて、それをハンマーで打ち込むことでしっかり固定します。解体するときは、ハンマーで反対からくさびを打つことで、すぐに取り外せます。<br>
 		現場では、2～3人でチームを組んで作業し、協力して働くことがとても大切な仕事です。主任が前日に決めたチーム分けに沿って作業を進めていきます。忙しい日には、1日に複数の現場を回ることもあります。午前中に2件の足場を組んで、午後に1件解体、なんてこともあります。
 	</p>
 	<div class="images">
@@ -291,8 +278,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 8, 'caption' => '男性：8名', 'color' => '#0062B5'],
-						[ 'value' => 1, 'caption' => '女性：1名', 'color' => '#FF6E7E'],
+						[ 'value' => 8, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 1, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -306,7 +293,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					[ 'value' => 3, 'caption' => '20代', 'color' => '#0073B7'],
 					[ 'value' => 1, 'caption' => '30代', 'color' => '#00AEEF'],
 					[ 'value' => 4, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 0.001, 'caption' => '50代', 'color' => '#009F6B'],
+					[ 'value' => 0.001, 'caption' => '', 'color' => '#009F6B'],
 					[ 'value' => 1, 'caption' => '60代', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
@@ -317,7 +304,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
 						[ 'value' => 70, 'caption' => "車・バイク", 'color' => '#E06A3A'],
-						[ 'value' => 0.0001, 'caption' => "電車・バス", 'color' => '#F29C50'],
+						[ 'value' => 0.0001, 'caption' => "", 'color' => '#F29C50'],
 						[ 'value' => 10, 'caption' => "徒歩", 'color' => '#C74227'],
 						[ 'value' => 20, 'caption' => '自転車', 'color' => '#F29C50'],
 					]); ?>
@@ -391,7 +378,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="pre_con">
 		<figure class="portrait">
 			<img src="president_p.jpg" alt="">
-			<figcaption><span class="name">小林淳</span></figcaption>
+			<figcaption><span class="name">専務</span></figcaption>
 		</figure>
 		<p>
 			私たちは、あいさつやマナーをとても大切にしています。<br>
@@ -458,7 +445,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd>建設業</dd>
+					<dd>建設作業員</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -483,7 +470,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>就業場所</dt>
 					<dd>〒386-2202<br>
-					長野県上田市真田町本原103</dd>
+					長野県上田市真田町本原799-2</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
@@ -520,7 +507,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>-</dd>
+					<dd>23.2日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
@@ -531,12 +518,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>180,000円</dd>
 				</div>
 				<div>
-					<dt>定期的に支払われる手当①</dt>
-					<dd>-</dd>
-				</div>
-				<div>
-					<dt>定期的に支払われる手当②</dt>
-					<dd>-</dd>
+					<dt>定期的に支払われる手当</dt>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>固定残業代</dt>
@@ -549,12 +532,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>180,000円</dd>
 				</div>
 				<div>
-					<dt>特別に支払われる手当①</dt>
-					<dd>-</dd>
-				</div>
-				<div>
-					<dt>特別に支払われる手当②</dt>
-					<dd>-</dd>
+					<dt>特別に支払われる手当</dt>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
@@ -562,11 +541,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>-</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd>制度無し</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
@@ -772,5 +751,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../../tab.js"></script>
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php //include $base . '../footer.php'; ?>
+<script src="<?= $highschool_base ?>animation.js"></script>
+<?php include $base . '../footer.php' ?>
 </body>

@@ -31,7 +31,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -142,7 +142,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		例えば、電気メーター、分電盤、コンセントなどいろいろなポイントで測定して、どこに問題があるかを探っていきます。
 	</p>
 	<div class="images">
-		<img src=".jpg" alt="" class="scene">
+		<img src="contents03.jpg" alt="" class="scene">
 	</div>
 	<p>
 		調査が終わったら、社内で図面や資料を確認し、ケーブルの加工や必要な工具の積み込みを行います。ケーブルの加工では、ケーブルカッターやニッパーでケーブルを必要な長さに切断したり、圧着工具で圧着端子を取り付けたりします。
@@ -569,7 +569,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php //include $base . '../footer.php' ?>
+<?php include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>

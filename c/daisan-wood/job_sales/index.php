@@ -33,7 +33,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -83,7 +83,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="../second.jpg">
+    <img alt="" class="fv_image" src="../eigyo.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -132,14 +132,14 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		そんな相談に、ひとつずつ向き合っています。
 	</p>
 	<div class="images">
-		<img src="work1.jpg" alt="" class="scene">
+		<img src="../pc.jpg" alt="" class="scene">
 	</div>
 	<p>
 		主な作業内容は、PCでの見積もり作成。電話やメールで届いた図面をもとに、木材の種類や数、職人さんの人数などを考えていきます。<br>
 		現場に行って作業の進み具合を確認したり、職人さんが困っていることはないか聞いたりするのも大切な仕事です。
 	</p>
 	<div class="images">
-		<img src="work1.jpg" alt="" class="scene">
+		<img src="../first.jpg" alt="" class="scene">
 	</div>
 	<p>
 		お客様は、もともとお付き合いのある会社がほとんど。いわゆる“飛び込み営業”や“ノルマ”のようなものはありません。<br>
@@ -153,8 +153,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		ある社員は、完成した小学校の見学会で喜んでいる子どもたちを見て、とても嬉しかったと話してくれました。
 	</p>
 	<div class="images">
-		<img src="../second.jpg" alt="" class="scene">
-		<img src="work4.jpg" alt="" class="scene">
+		<img src="../top4.jpg" alt="" class="scene">
+		<img src="../top5.jpg" alt="" class="scene">
 	</div>
 	<p>
 		街を歩くと自分が関わった建物が目に入り、誇りを持てる仕事です。
@@ -168,8 +168,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		また、社会人としての基本を学べる外部のビジネスマナー研修もあるので、初めて社会に出る高校生も安心です。
 	</p>
 	<div class="images">
-		<img src="work5.jpg" alt="" class="scene">
-		<img src="work6.jpg" alt="" class="scene">
+		<img src="../third.jpg" alt="" class="scene">
 	</div>
 	<p>
 		営業に配属されたら、まずは先輩の業務を手伝いながら、見積もりの作り方やお客様とのやりとりを学んでいきます。2～3年ほどで担当を引き継ぎ、1人で10社ほど担当できるようになるのが、一人前の目安です。<br>
@@ -184,7 +183,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		初めてのことばかりで不安もあると思いますが、“優しくておせっかい”な先輩たちがしっかりサポートしてくれます。安心して飛び込んできてください！
 	</p>
 	<div class="images">
-		<img src="../second.jpg" alt="" class="scene">
+		<img src="" alt="" class="scene">
 	</div>
 </section>
 <section class="g">
@@ -193,19 +192,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<div class="image_area">
 			<ul class="slides">
 			<li>
-		<img src="../second.jpg" alt="">
+		<img src="" alt="">
 	</li>
 	<li>
-		<img src="work1.jpg" alt="">
+		<img src="" alt="">
 	</li>
 	<li>
-		<img src="work4.jpg" alt="">
+		<img src="" alt="">
 	</li>
 	<li>
-		<img src="work5.jpg" alt="">
+		<img src="" alt="">
 	</li>
 	<li>
-		<img src="work6.jpg" alt="">
+		<img src="" alt="">
 	</li>
 		</ul>
 		<div class="button left_btn">&lt;</div>
@@ -245,7 +244,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd>金属加工</dd>
+					<dd>営業</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -271,12 +270,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>就業場所</dt>
 					<dd>
 						〒386-0407
-						長野県上田市長瀬１０５０
+						長野県東御市加沢201-5
 					</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>上田丸子線　上長瀬駅から徒歩15分</dd>
+					<dd>しなの鉄道 滋野駅から徒歩30分</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
@@ -315,7 +314,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>高卒以上170,000～　1か月160時間勤務の場合、残業代別</dd>
+					<dd>高卒以上188,000～</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
@@ -331,7 +330,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>170,000円</dd>
+					<dd>188,000円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -343,69 +342,75 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>毎月　20日</dd>
+					<dd>毎月 15日</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>あり（月額18,000円まで）</dd>
+					<dd>あり（月額20,000円まで）</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd>あり（新卒者の前年度実績）3%</dd>
+					<dd>あり（新卒者の前年度実績：1,000円）</dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回 4.5ヶ月分</dd>
+					<dd>年2回 （新卒者の前年度実績：3万円～15万円）</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>8時20分〜17時00分</dd>
+					<dd>8時00分〜17時00分</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月20時間</dd>
+					<dd>月1時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>週休2日制</dd>
+					<dd>日・祝</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>年間休日115日</dd>
+					<dd>
+						年間休日115日<br>
+						当社カレンダーによる<br>
+						土曜日は月3～4日程度休み<br>
+						年末年始休暇（8日程度）<br>
+						夏季休暇（5日程度）
+					</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>厚生年金保険、健康保険、財形保険、雇用保険、労災保険</dd>
+					<dd>雇用保険、労災保険、健康保険、厚生年金保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd>厚生年金基金</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>あり（勤続3年以上）</dd>
+					<dd>あり（勤続2年以上）</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>あり（一律60歳）</dd>
+					<dd>あり（一律65歳）</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>あり（一律60歳）</dd>
+					<dd>あり（一律65歳）</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>あり（上限65歳まで）</dd>
+					<dd>あり（上限70歳まで）</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd>あり（上限70歳まで）</dd>
+					<dd>あり（上限75歳まで）</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
@@ -418,29 +423,29 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>直近3年間の新卒者等採用者数</dt>
-					<dd>前年度:6人、2年度前：5人、3年度前：5人</dd>
+					<dd>前年度:1人、2年度前：1人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>直近3年間の新卒者等離職者数</dt>
-					<dd>前年度:2人、2年度前：1人、3年度前：2人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>男性の新卒者等採用数</dt>
-					<dd>前年度:6人、2年度前：2人、3年度前：2人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>女性の新卒者等採用数</dt>
-					<dd>前年度:0人、2年度前：3人、3年度前：3人</dd>
+					<dd>前年度:1人、2年度前：1人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						10年
+						10.5年
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>37歳</dd>
+					<dd>44歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
@@ -449,23 +454,29 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>研修内容</dt>
 					<dd>
-						外部機関による研修・社内研修・メンタルヘルス教育・得意先、関連会社の見学
+						入社時：安全衛生教育
+						入社後：OJT研修、外部研修（配属先により内容は異なる）
 					</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
 						あり<br>
-						通信教育費用を会社で負担
+						業務に関する研修・講習・セミナー（費用は会社負担）<br>
+						資格取得支援（費用を会社が補助）		
 					</dd>
 				</div>
 				<div>
 					<dt>メンター制度の有無</dt>
-					<dd>なし</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>キャリアコンサルティング制度の有無</dt>
-					<dd>なし</dd>
+					<dd>
+						あり<br>
+						新入社員導入研修<br>
+						月一回の面談、半年ごとの面談、年一回の面談
+					</dd>
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
@@ -473,7 +484,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
-					<dd>28時間</dd>
+					<dd>3.5時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
@@ -481,11 +492,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
-					<dd>女性：2人、男性：1人</dd>
+					<dd>女性：0人、男性：0人</dd>
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
-					<dd>女性：2人、男性：3人</dd>
+					<dd>女性：0人、男性：0人</dd>
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
@@ -493,11 +504,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
-					<dd>0%</dd>
+					<dd>2.8%</dd>
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>製造業</dd>
+					<dd>営業</dd>
 				</div>
 			</dl>
 		</div>
@@ -506,7 +517,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>2名</dd>
+					<dd>1名</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
@@ -520,17 +531,17 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考旅費</dt>
-					<dd>あり</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後7日以内</dd>
+					<dd>面接後10日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
 						総務部<br>
-						吉池一樹
+						宮下
 					</dd>
 				</div>
 			</dl>
@@ -566,7 +577,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php //include $base . '../footer.php' ?>
+<?php include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>

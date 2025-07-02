@@ -9,11 +9,11 @@ $co = [
     'address' => '長野県上田市住吉1128-1',
     'homepage' => 'なし',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.4117201,//緯度
-    'longitude' => 138.2758269,//経度
+    'latitude' => 36.411705462,//緯度
+    'longitude' => 138.2757979438,//経度
     'human' => [
-        'image' => 'sato.png',
-        'name' => '佐藤',
+        'image' => 'noguchi.png',
+        'name' => '野口',
     ]
 ];
 
@@ -25,8 +25,8 @@ $occupation = [
         'catch_copy' => 'ものづくりのエキスパートを目指す',
         'work' => ['533'],
         'image' => '.jpg',
-        'latitude' => 36.4117201,//緯度
-        'longitude' => 138.2758269,//経度
+        'latitude' => 36.411705462,//緯度
+        'longitude' => 138.2757979438,//経度
         'MBTI' =>  'IStj',
     ],
 ];

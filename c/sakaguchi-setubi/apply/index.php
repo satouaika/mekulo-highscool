@@ -18,7 +18,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -90,11 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li>見学・体験<span>30分程度</span></li>
 		</ul>
 	</div>
-	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
-		<img src="../../../flag.png" class="flag">
-		<span>応募する</span>
-		<img src="../../../arrow.svg">
-	</a>
+	<p class="entry_txt">応募前見学をご希望の方は、担任の先生や、進路指導の先生にご相談ください。</p>
 </section>
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
@@ -102,5 +98,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../tab.js"></script>
 <script src="../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php //include $base . '../footer.php' ?>
+<?php include $base . '../footer.php' ?>
 </body>

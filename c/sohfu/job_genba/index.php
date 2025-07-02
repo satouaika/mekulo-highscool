@@ -33,7 +33,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -136,6 +136,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p>
 		ダクト職人は、「腰道具」と呼ばれるさまざまな工具を身につけて作業します。ナラシハンマーやラチェットレンチと呼ばれる工具を使いながら、チームで声を掛け合い、素早くダクトを設置していきます。 
 	</p>
+	<div class="images">
+		<img src="koshidogu.jpg" alt="" class="scene">
+	</div>
 	<p>
 		取り付けの技術は1on1の個別指導ではなく、周りのみんなで教え合います。昔は「見て覚えろ」と言われることもありましたが、今はしっかり教える環境が整っています。<br>
 		3年もすれば仕事の流れがわかり、5年ほどで一人前の職人に。小規模の現場なら、リーダーを任されることもあります。
@@ -543,7 +546,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php //include $base . '../footer.php' ?>
+<?php include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>

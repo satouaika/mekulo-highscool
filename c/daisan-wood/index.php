@@ -19,7 +19,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -65,7 +65,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_area">
-	<img alt="" class="fv_image" src=".jpg">
+	<img alt="" class="fv_image" src="firstview.jpg">
 	<hgroup>
 		<h1 class="catch"><?= $co['catch_copy'] ?></h1>
 		<p class="fv-tag"><?= INDUSTRIES[$co['industry'][0]] ?></p>
@@ -147,13 +147,14 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		「建築資材の流通販売」「木工事の請負」「県産材製品の加工・販売」「防腐・防火処理木材製品の加工・販売」の4事業を柱とし、自然豊かな信州の木を、住宅や公共施設などに使いながら、地域の建築を支えています。
 	</p>
 	<div class="images">
-		<img src=".jpg" class="scene" alt="">
+		<img src="top1.jpg" class="scene" alt="">
+		<img src="contents06.jpg" class="scene" alt="">
 	</div>
 	<p>
 		地域の企業や職人、自治体などと協力して、地域を盛り上げ元気にすること。地域の技術を継承していくこと。地域の木材を有効活用して自然と共存していくこと。それが、第三木材で大切にしているテーマです。
 	</p>
 	<div class="images">
-		<img src=".jpg" class="scene" alt="">
+		<img src="top3.jpg" class="scene" alt="">
 	</div>
 	<p>
 		「木を切らないといけないの？」と、不思議に思った人もいると思います。森は、人が手を加えずに放っておくと、荒れてしまうんです。<br>
@@ -169,7 +170,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		特徴的なのは、ほとんどが特注だということ。建物に合わせて、オーダーメイドで工事を行なっています。ゼネコン（大手建設会社）からも、「これは第三木材に任せないとわからない」と頼られる存在です。
 	</p>
 	<div class="images">
-		<img src="introduce2.jpg" class="scene" alt="">
+		<img src="top4.jpg" class="scene" alt="">
+		<img src="top5.jpg" class="scene" alt="">
 	</div>
 	<p>
 		また、大工さんの紹介ができるのも、地域密着の第三木材だからこそ。地域材の扱いに詳しい地元の大工さんと連携することで、工事がスムーズに進みます。
@@ -183,22 +185,20 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		ビジネスマナーなども外部研修で学べるので、初めて社会に出る高校生も安心です。
 	</p>
 	<div class="images">
-		<img src="introduce3.jpg" class="scene" alt="">
+		<img src="third.jpg" class="scene" alt="">
+		<img src="first.jpg" class="scene" alt="">
 	</div>
 	<p>
 		やるときはやる、でも無理はしない。そんな働き方が根付いているのも第三木材の魅力のひとつ。上司も定時で帰ることが多く、社長も子育て中なので働き方に理解があります。<br>
 		「自分がいないと止まってしまう」という仕組みではないからこそ、休みも取りやすく、プライベートも大切にできます。
 	</p>
 	<div class="images">
-		<img src="introduce3.jpg" class="scene" alt="">
+		<img src="" class="scene" alt="">
 	</div>
 	<p>
 		また、ものづくりが好きな人が多いのも第三木材の特徴です。<br>
 		お昼休みなどの空き時間に、廃材を使って棚や机を作る人も。子どものための小さなキッチンを作った人もいました。何か作り始めると、まわりが「そこ、こうしたら？」と自然と集まってくるような職場です。
 	</p>
-	<div class="images">
-		<img src="introduce3.jpg" class="scene" alt="">
-	</div>
 </section>
 <section id="business" class="content">
 	<h2>私たちのビジネス</h2>
@@ -206,7 +206,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="business1.jpg" alt="">
+					<img src="busi1.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>構造材</h3>
@@ -220,7 +220,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="business2.jpg" alt="">
+					<img src="busi2.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>ウッドチップ</h3>
@@ -234,7 +234,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="business3.jpg" alt="">
+					<img src="top1.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>製材</h3>
@@ -248,7 +248,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="business4.jpg" alt="">
+					<img src="busi4.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>塗装</h3>
@@ -262,7 +262,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="business5.jpg" alt="">
+					<img src="top4.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>サントミューゼ</h3>
@@ -276,7 +276,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="business6.jpg" alt="">
+					<img src="busi6.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>小諸市動物園</h3>
@@ -399,7 +399,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="company_info">
 	<h2>会社概要</h2>
-	<img src=".jpg" alt="" class="scene">
+	<img src="office.jpg" alt="" class="scene">
 	<dl class="speclist">
 		<div>
 			<dt>会社名</dt>
@@ -448,7 +448,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
 		<figure class="portrait">
-			<img src="president_p.jpg" alt="">
+			<img src="shacyo.jpg" alt="">
 			<figcaption><span class="name">島田直政</span></figcaption>
 		</figure>
 		<p>
@@ -503,7 +503,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_sales/">
 				<figure>
-					<img src="<?= $company_base ?>introduce2.jpg" alt="">
+					<img src="<?= $company_base ?>eigyo.jpg" alt="">
 					<figcaption>法人営業</figcaption>
 				</figure>
 			</a>
@@ -511,7 +511,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_conmane/">
 				<figure>
-					<img src="job_hyoumen/fv.jpg" alt="" style="aspect-ratio: 3 / 2; object-fit: cover;">
+					<img src="second.jpg" alt="" style="aspect-ratio: 3 / 2; object-fit: cover;">
 					<figcaption>建築施工管理</figcaption>
 				</figure>
 			</a>
@@ -519,7 +519,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_carpenter/">
 				<figure>
-					<img src="second.jpg" alt="">
+					<img src="contents06.jpg" alt="">
 					<figcaption>建築大工</figcaption>
 				</figure>
 			</a>
@@ -527,7 +527,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_coating/">
 				<figure>
-					<img src="second.jpg" alt="">
+					<img src="job_delivery/haisou.jpg" alt="">
 					<figcaption>配送</figcaption>
 				</figure>
 			</a>
@@ -535,7 +535,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_processing/">
 				<figure>
-					<img src="second.jpg" alt="">
+					<img src="contents01.jpg" alt="">
 					<figcaption>木材加工</figcaption>
 				</figure>
 			</a>
@@ -548,5 +548,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../../tab.js"></script>
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php //include $base . '../footer.php'; ?>
+<?php include $base . '../footer.php' ?>
 </body>

@@ -19,7 +19,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -126,8 +126,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </div>
 	<h3>取材担当者からのポイント！</h3>
 	<figure class="portrait" style="width: 20%;">
-		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
-		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
+		<img src=<?= $highschool_base . WRITER['noguchi']['image'] //担当者名をここに記入?> alt="">
+		<figcaption><span class="name"><?= WRITER['noguchi']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
 	<p style="min-height: 160px;">
 		世の中には、「とにかく決められた通りに作るだけ」の会社もあります。<br>
@@ -482,7 +482,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_seizou/">
 				<figure>
-					<img src=".jpg" alt="">
+					<img src="job_seizou/work1.jpg" alt="">
 					<figcaption>総合製造スタッフ</figcaption>
 				</figure>
 			</a>
@@ -495,5 +495,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../../tab.js"></script>
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php //include $base . '../footer.php'; ?>
+<?php include $base . '../footer.php' ?>
 </body>

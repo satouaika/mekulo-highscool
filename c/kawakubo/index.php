@@ -19,7 +19,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -243,10 +243,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="numeric_data">
 	<h2>数字で見る当社</h2>
-	<div class="large">
-		<p>売上高</p>
-		<p class="num"><span></span>億円</p>
-	</div>
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
@@ -755,5 +751,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>animation.js"></script>
-<?php //include $base . '../footer.php'; ?>
+<?php include $base . '../footer.php' ?>
 </body>

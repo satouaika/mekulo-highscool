@@ -32,7 +32,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -133,7 +133,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p>
 		ただペンキを塗るだけじゃありません！<br>
 		見た目を美しく仕上げるのはもちろんですが、それ以上に大事なのは「建物を守る」ことです。<br>
-		まず高圧洗浄で、古い汚れやカビを徹底的に落とします。ここで手を抜けば、どんなに良い塗料を使っても長持ちしません。
+		まず高圧洗浄で、古い汚れやサビを徹底的に落とします。ここで手を抜けば、どんなに良い塗料を使っても長持ちしません。
 	</p>
 	<div class="images">
 		<img src="work1.jpg" alt="" class="scene">
@@ -235,7 +235,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="employee1.jpg" alt="">
+				<img src="hsan.jpg" alt="">
 				<hgroup>
 					<h3>Hさん</h3>
 					<p>
@@ -494,7 +494,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>自己啓発支援の有無</dt>
 					<dd>
 						あり<br>
-						資格所得のための支援制度あり。
+						資格取得のための支援制度あり。
 					</dd>
 				</div>
 				<div>
@@ -519,7 +519,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
-					<dd>女性：0人、男性：0人</dd>
+					<dd>女性：1人、男性：0人</dd>
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
@@ -604,5 +604,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>
-<?php //include $base . '../footer.php' ?>
+<?php include $base . '../footer.php' ?>
 </body>
