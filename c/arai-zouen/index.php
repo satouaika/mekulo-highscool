@@ -532,7 +532,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd>造園</dd>
+					<dd>造園職人</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -556,8 +556,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>就業場所</dt>
-					<dd>〒389-0601<br>
-					長野県埴科郡坂城町坂城236-1</dd>
+					<dd>
+						〒389-0601<br>
+						長野県埴科郡坂城町坂城236-1
+					</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
