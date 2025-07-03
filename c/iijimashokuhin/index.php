@@ -501,7 +501,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd>食品加工業</dd>
+					<dd>なめ茸やきのこ・山菜の製造業務</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -513,7 +513,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>契約更新の可能性</dt>
-					<dd>あり(原則更新)</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>試用期間</dt>
@@ -609,7 +609,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回または2か月分</dd>
+					<dd>年2回(2か月分)</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
@@ -773,7 +773,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考方法</dt>
-					<dd>面接</dd>
+					<dd>見学</dd>
 				</div>
 				<div>
 					<dt>選考旅費</dt>
