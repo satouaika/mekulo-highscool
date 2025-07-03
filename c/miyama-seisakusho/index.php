@@ -249,7 +249,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
-						[ 'value' => 100, 'caption' => '中途', 'color' => '#F34444'],
+						[ 'value' => 100, 'caption' => '中途100%', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -284,7 +284,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 100, 'caption' => "車・バイク100%", 'color' => '#E06A3A'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
 					]); ?>
 				</svg>
@@ -295,7 +295,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 100, 'caption' => "長野県内100%", 'color' => '#B2CF3E'],
 							[ 'value' => 0.001, 'caption' => '', 'color' => '#FEE929'],
 													]); ?>
 					</svg>

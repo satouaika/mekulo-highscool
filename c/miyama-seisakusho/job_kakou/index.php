@@ -136,30 +136,33 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</p>
 	<h3>NCフライス加工</h3>
 	<div class="images">
-		<img src="../first.jpg" alt="" class="scene">
+		<img src="contents01.jpg" alt="" class="scene">
+		<img src="contents02.jpg" alt="" class="scene">
 	</div>
 	<p>
 		金属をガリガリ削って、立体的な形を作るための機械です。手動でも操作できるけど、プログラムを使って自動で削ることもできます。 
 	</p>
 	<h3>マシニング加工</h3>
 	<div class="images">
-		<img src="work2.jpg" alt="" class="scene">
+		<img src="contents03.jpg" alt="" class="scene">
 	</div>
 	<p>
 		NCフライス加工よりもっと複雑な形を作れる機械 。プログラムを入力すると、自動で金属を削って穴を開けたり、形を整えたりすることができ、複雑な加工ができるのが特徴です。
 	</p>
 	<h3>旋盤加工</h3>
 	<div class="images">
-		<img src="work2.jpg" alt="" class="scene">
+		<img src="contents04.jpg" alt="" class="scene">
 	</div>
 	<p>
 		金属をグルグル回して、円柱とか円錐みたいな形を作る機械です。材料を回転させて、そこに刃物（バイト）を当てて削っていきます。
 	</p>
 	<h3>仕事の魅力・特徴</h3>
 	<p>
-		未経験でもOK！ 先輩が一から丁寧に教えてくれるので、ゼロから技術を身につけられます。機械を使ったモノづくり！ 大きな金属を削ったり、精密な部品を作る仕事で、部品と部品がピタッと合ったときが、誇らしい仕事です。
+		未経験でもOK！ 先輩が一から丁寧に教えてくれるので、ゼロから技術を身につけられます。機械を使ったモノづくり！ 大きな金属を削ったり、精密な部品を作る仕事で、部品と部品がピタッと合ったときが、誇らしい仕事です。<br>
+		ミヤマ製作所の仕事は、ただ言われた作業をこなすだけではありません。完成品の先を想像し、自分の頭と手を使って考えながら加工していきます。ものづくりが好きで、コツコツ努力できる人にはピッタリの職場です。一方で、すぐに結果を求める人や、汚れる作業が苦手な人には、向いていないかもしれません。
 	</p>
 </section>
+<!--
 <section class="g">
 	<h2>写真で雰囲気を知る</h2>
 	<div class="NRGallery" data-width="640" data-height="480">
@@ -183,14 +186,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 	</div>
 </section>
+-->
 <section class="g" id="employee_introduction">
 	<h2>社員紹介</h2>
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="employee1.jpg" alt="">
+				<img src="shain.jpg" alt="">
 				<hgroup>
-					<h3>さん</h3>
+					<h3>○○さん</h3>
 					<p>
 						「仕事に前向きな人ばかりの環境！」<br>
 						前職は手を抜くのが当たり前の職場でした。<br>
@@ -198,7 +202,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					</p>
 				</hgroup>
 			</div>
-			<p>2013年新卒入社<br>さん</p>
+			<p>ーー年入社<br>○○さん</p>
 		</li>
 	</ul>
 </section>
