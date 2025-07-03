@@ -327,7 +327,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>あり（年1～2回）</dd>
+					<dd>あり（初年度1回、次年度以降2回）</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
@@ -353,7 +353,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>厚生年金保険、健康保険、雇用保険、労災保険、財形保険</dd>
+					<dd>厚生年金保険、健康保険、雇用保険、労災保険、財形保険、その他</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
@@ -369,7 +369,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>あり（65歳）</dd>
+					<dd>65歳</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
