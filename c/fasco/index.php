@@ -417,7 +417,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 0.01, 'caption' => '', 'color' => '#2378C7'],
+						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
 						[ 'value' => 31, 'caption' => '中途100%', 'color' => '#F34444'],
 					]); ?>
 				</svg>
@@ -611,7 +611,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
-					<dd>異なる</dd>
+					<dd>同条件</dd>
 				</div>
 				<div>
 					<dt>就業場所</dt>
@@ -699,7 +699,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回（3.4ヶ月分）</dd>
+					<dd>年2回（1.7ヶ月分）</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
@@ -726,7 +726,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>雇用保険、労災保険、公務災害補償、健康保険、厚生年金、財形</dd>
+					<dd>雇用保険、労災保険、公務災害補償、健康保険、厚生年金保険、財形保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
