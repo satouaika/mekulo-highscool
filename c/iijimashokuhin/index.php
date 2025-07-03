@@ -469,6 +469,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						}
 						?>
 				</ul>
+				これ以外の日程はお問い合わせください。
             </dd>
         </div>
         <div>
@@ -717,7 +718,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>キャリアコンサルティング制度の有無</dt>
-					<dd>あり</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
@@ -763,7 +764,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-					    2025年7月28日（月）～8月1日（金）の中で要相談 13時00分～
+					    2025年7月29日（火） 9時00分～<br>
+						2025年7月30日（水） 9時00分～<br>
+						2025年7月31日（木） 9時00分～<br>
+						2025年8月1日（金） 9時00分～<br>
+						これ以外の日程はお問い合わせください。
 					</dd>
 				</div>
 				<div>
