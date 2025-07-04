@@ -21,7 +21,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -422,7 +422,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<h3>想像力が武器になる</h3>
 		<figure class="portrait">
 			<img src="president_p.jpg" alt="">
-			<figcaption><span class="name">代表取締役社長<br>金子慎也</span></figcaption>
+			<figcaption><span class="name" style="font-size: 14px;">代表取締役社長</span><span class="name">金子慎也</span></figcaption>
 		</figure>
 		<p>
 			私たちが求めているのは、勉強が得意な人ではなく、想像力のある人です。サイコロの展開図を思い浮かべるのが得意な人や、パズルゲームが好きな人は、この仕事に向いていると思います。
@@ -494,5 +494,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../../tab.js"></script>
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 </body>
