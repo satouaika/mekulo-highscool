@@ -381,7 +381,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="company_info">
 	<h2>会社概要</h2>
-	<img src="office.jpg" alt="" class="scene">
+	<img src="company.jpg" alt="" class="scene">
 	<dl class="speclist">
 		<div>
 			<dt>会社名</dt>
