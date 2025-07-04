@@ -71,14 +71,17 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<!--<p class="catchcopy"><span></span></p>
 	<p class="cont">
-		
-	</p>-->
+		「税金のしごと？ 会計って難しそう…」<br>
+		そんなイメージを持っている人にこそ、来てほしい見学会です。<br>
+		普段の生活ではあまり接することのない仕事かもしれませんが、実は“誰かの挑戦や夢”を支える大切な仕事でもあります。<br>
+		会社見学では、オフィスの雰囲気や実際の仕事の様子を見ていただくだけでなく、私たちが大切にしている「伴走支援」という考え方にも触れていただきます。<br>
+		お客様と同じ目線に立ち、一緒に歩んでいく――そんな私たちの想いを、ぜひ感じてみてください。
+	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>随時開催 ※要事前予約</li>
+			<li>2025年7月1日（火）～随時受付中</li>
 		</ul>
 	</div>
 	<div class="flow">
@@ -87,11 +90,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li>事務所説明・所内見学<span>60分程度</span></li>
 		</ul>
 	</div>
-	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
-		<img src="../../../flag.png" class="flag">
-		<span>応募する</span>
-		<img src="../../../arrow.svg">
-	</a>
+	<p class="entry-txt">
+		応募前見学をご希望の方は、担任の先生や、進路指導の先生にご相談ください。
+	</p>
 </section>
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>

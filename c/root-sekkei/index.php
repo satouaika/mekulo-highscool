@@ -239,7 +239,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p class="remark">（2025年1月1日現在）</p>
 	<div class="large">
 		<p>売上高</p>
-		<p class="num"><span>2</span>億2838万円</p>
+		<p class="num"><span>2</span>億<span>2838</span>万円</p>
 		<p class="year">※2024年実績</p>
 	</div>
 	<ul class="gr_con">
@@ -356,10 +356,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dt>事業内容</dt>
 			<dd>
 				<ul class="li_style">
-					<li>自動車部品</li>
-					<li>工作機械</li>
-					<li>時計部品等を作る工作機械の機械設計</li>
-					<li>プラスチック製品等の金型設計</li>
+					<li>ペットボトル成型機・工作機械・半導体モールディング装置の機械設計及び制御設計</li>
+					<li>３次元モデリング及び解析業務</li>
+					<li>ペットボトル金型設計</li>
 				</ul>
 			</dd>
 		</div>
@@ -390,7 +389,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <section class="content" id="from_president">
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
-		<h3></h3>
 		<figure class="portrait">
 			<img src="boss_sp.jpg" alt="">
 			<figcaption><span class="name">大井雄司</span></figcaption>
