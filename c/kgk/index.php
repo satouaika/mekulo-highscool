@@ -360,8 +360,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<div>
 			<dt>事業内容</dt>
 			<dd>
-				<li>環境分析</li>
-				<li>建設コンサルタント（測量）</li>
+				環境分析
 			</dd>
 		</div>
 		<div>
