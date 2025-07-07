@@ -71,17 +71,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span></span></p>
+	<p class="catchcopy"><span>「プラスチック工場」大見学会</span></p>
 	<p class="cont">
-		
+		「プラスチック製品を作る仕事」と聞いて、どんなイメージがありますか？ただ機械を動かすだけ…と思ったら、それは大きな誤解です。気温や湿度、材料の種類によって毎回微調整が必要な“考えるものづくり”が、ここ長野レジンの仕事です。<br>
+		どんなところで作っているのか実際に見てみませんか？ものづくりに興味がある人、がんばった分ちゃんと評価される仕事がしたい人、ぜひ一度工場をのぞきに来てください。
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年7月29日（火） 14時00分～</li>
-			<li>2025年8月5日（火） 14時00分～</li>
+			随時開催中！<br>
+			お問い合わせください。
 		</ul>
 	</div>
+	<!--
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
@@ -89,6 +91,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li><span>分程度</span></li>
 		</ul>
 	</div>
+	-->
 	<p class="entry_txt">応募前見学をご希望の方は、担任の先生や、進路指導の先生にご相談ください。</p>
 </section>
 </main>
