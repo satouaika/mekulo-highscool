@@ -1,16 +1,16 @@
 <?php
 $co = [
-    'slug' => 'miyama-seisakusho',
+    'slug' => 'kgk',
     'image' => 'company.jpg',
-    'company_name' => 'ミヤマ製作所',
-    'catch_copy' => 'スゴ腕金属加工職人のあつまる職場',
-    'industry' => ['E'],
-    'post_code' => '386-1102',
-    'address' => '長野県上田市上田原１７８４',
-    'homepage' => 'https://miyamass.jp/',
+    'company_name' => '株式会社科学技術開発センター',
+    'catch_copy' => '身近なことを科学で測定する',
+    'industry' => ['L'],
+    'post_code' => '381-0025',
+    'address' => '長野県長野市大字北長池字南長池境2058-3',
+    'homepage' => 'https://kgk-c.co.jp/',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.3855759193,//緯度
-    'longitude' => 138.2310452864,//経度
+    'latitude' => 36.64721198,//緯度
+    'longitude' => 138.23568173,//経度
     'human' => [
         'image' => 'shomura.png',
         'name' => '正村 欣生',
@@ -19,15 +19,15 @@ $co = [
 
 // 募集職種
 $occupation = [
-    'job_kakou' => [
-        'name' => '金属加工職',
-        'url' => 'job_kakou',
-        'catch_copy' => '切粉の数だけ磨かれる職人技',
+    'job_sokutei' => [
+        'name' => '技術部測定課',
+        'url' => 'job_sokutei',
+        'catch_copy' => '測るためならたとえ地の中、水の中',
         'work' => ['562'],
-        'fv_url' => 'first.jpg',
-        'latitude' => 36.3855759193,//緯度
-        'longitude' => 138.2310452864,//経度
-        'MBTI' =>  'IStJ',
+        'fv_url' => 'job_sokutei/firstview',
+        'latitude' => 36.64721198,//緯度
+        'longitude' => 138.23568173,//経度
+        'MBTI' =>  'iNTj',
     ],
 ];
 
@@ -37,19 +37,9 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年8月4日（月） 9時00分～',
-                'date' => '2025-08-04',
-                'deadline' => '2025-08-03',//募集締切日
-            ],
-            [
-                'name' => '2025年8月5日（火） 9時00分～',
-                'date' => '2025-08-05',
-                'deadline' => '2025-08-04',//募集締切日
-            ],
-            [
-                'name' => '2025年8月6日（水） 9時00分～',
-                'date' => '2025-08-06',
-                'deadline' => '2025-08-05',//募集締切日
+                'name' => '随時開催中！',
+                'date' => '2025-08-30',
+                'deadline' => '2025-08-30',//募集締切日
             ],
         ],
         'catch_copy' => '',

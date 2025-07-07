@@ -90,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="../first.jpg">
+    <img alt="" class="fv_image" src="firstview.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -131,35 +131,35 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <section class="g" id="job_detail">
 	<h2>仕事内容</h2>
 	<p>
-		ミヤマ製作所を端的にあらわすと金属加工職人の集まる会社です。<br>
-		どうやって金属を加工するかというと、NCフライス加工、マシニング加工、 旋盤加工っていう、ちょっとカッコいい名前の機械を使います。
+		測定課は、空気や水、土、建物などを調査・測定する仕事です。現場に出向いてサンプルを採取したり、専用の機器で数値を測ったりして、環境の安全性を確かめる役割を担っています。
 	</p>
-	<h3>NCフライス加工</h3>
+	<h3>水質検査</h3>
+	<p>
+		河川の水質検査だけでなく、井戸水の水質検査や工場から排水された水の水質検査などをおこなっています。
+	</p>
 	<div class="images">
-		<img src="contents01.jpg" alt="" class="scene">
-		<img src="contents04.jpg" alt="" class="scene">
+		<img src="../firstview.jpg" alt="" class="scene">
 	</div>
 	<p>
-		金属をガリガリ削って、立体的な形を作るための機械です。手動でも操作できるけど、プログラムを使って自動で削ることもできます。 
+		長野県は全国でも有数の温泉の数の多い県です。温泉にも「温泉法」という法律があり、湧き出た地下水が温泉水かどうかを判定し、分析書を発行しています。分析書は温泉の施設内に掲示することになっていますので、みなさんもきっと温泉見たことあるはずです。
 	</p>
-	<h3>マシニング加工</h3>
 	<div class="images">
-		<img src="contents03.jpg" alt="" class="scene">
+		<img src="../onsen.1.jpg" alt="" class="scene">
 	</div>
+	<h3>煤煙測定</h3>
 	<p>
-		NCフライス加工よりもっと複雑な形を作れる機械 。プログラムを入力すると、自動で金属を削って穴を開けたり、形を整えたりすることができ、複雑な加工ができるのが特徴です。
+		ボイラーや焼却炉、集塵施設の排ガス測定もおこなっています。排ガスの中の、NОx、SОx、ばいじんの測定や、重金属・ダイオキシンなどの量を測定します。安全の範囲内で操業していれば問題ありませんが、そうでない場合は対応策を提案することも必要です。
 	</p>
-	<h3>旋盤加工</h3>
 	<div class="images">
-		<img src="contents02.jpg" alt="" class="scene">
+		<img src="../first.jpg" alt="" class="scene">
 	</div>
+	<h3>地下タンクの漏洩検査</h3>
 	<p>
-		金属をグルグル回して、円柱とか円錐みたいな形を作る機械です。材料を回転させて、そこに刃物（バイト）を当てて削っていきます。
-	</p>
-	<h3>仕事の魅力・特徴</h3>
-	<p>
-		未経験でもOK！ 先輩が一から丁寧に教えてくれるので、ゼロから技術を身につけられます。機械を使ったモノづくり！ 大きな金属を削ったり、精密な部品を作る仕事で、部品と部品がピタッと合ったときが、誇らしい仕事です。<br>
-		ミヤマ製作所の仕事は、ただ言われた作業をこなすだけではありません。完成品の先を想像し、自分の頭と手を使って考えながら加工していきます。ものづくりが好きで、コツコツ努力できる人にはピッタリの職場です。一方で、すぐに結果を求める人や、汚れる作業が苦手な人には、向いていないかもしれません。
+		地下タンクって何のタンク？と思った方もいるかもしれません。<br>
+		ガソリンスタンドの多くは地下にタンクが埋まっています。法律で年一回の検査が義務付けられているので、そのタンクに漏れがないかを検査します。<br><br>
+		測定課の仕事は、一言でいえば「環境を測る」こと。空気、水、土、建物など、身のまわりにあるさまざまな対象を、調査・測定します。<br>
+		現場は街中ばかりではありません。ときには山奥だったり、人がなかなか入らない場所でのサンプル採取もある仕事です。<br>
+		自然が好き、科学にワクワクする、体を動かすのが得意──そんな君と、いつか一緒にフィールドに出られたらうれしいです。
 	</p>
 </section>
 <!--
@@ -192,17 +192,17 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="shain.jpg" alt="">
+				<img src="../contents02.jpg" alt="">
 				<hgroup>
-					<h3>Sさん</h3>
+					<h3>田上さん</h3>
 					<p>
-						「仕事に前向きな人ばかりの環境！」<br>
-						前職は手を抜くのが当たり前の職場でした。<br>
-						それが嫌でミヤマ製作所に転職したのですが、ここではみんな真剣に仕事に向き合い、品質の高いものづくりをしています。安心して長く働ける環境です。
+						この仕事は、化学物質を扱っているので理系の人が向いているのは当然のことですが、サンプル採取の仕方を工夫することもできるので、クリエイティブな人にも楽しい仕事だと思います。<br>
+						高校３年の夏に会社見学に来たのですが、その時は説明を受けても難しい用語ばかりで、何しているかわからない仕事で「難しそうだなぁ」と思いました。<br>
+						実際にこの仕事やってみて、ただサンプルを採取して計測するだけではないことがわかった頃から面白く感じるようになってきました。
 					</p>
 				</hgroup>
 			</div>
-			<p>Sさん</p>
+			<p>田上さん</p>
 		</li>
 	</ul>
 </section>
@@ -219,7 +219,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd>金属加工及び検査</dd>
+					<dd>環境測定業務</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -231,7 +231,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>契約更新の可能性</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>試用期間</dt>
@@ -244,13 +244,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>就業場所</dt>
 					<dd>
-						〒386-1102<br>
-						長野県上田市上田原１７８４
+						〒381-0025<br>
+						長野県長野市大字北長池字南長池境2058-3
 					</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>別所線 赤坂上駅から徒歩10分</dd>
+					<dd>JR長野駅から車で15分</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
@@ -258,7 +258,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd>屋内禁煙</dd>
+					<dd>喫煙室設置</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -281,7 +281,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>21.6日</dd>
+					<dd>21日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
@@ -289,7 +289,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>180,000円</dd>
+					<dd>195,000円</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当</dt>
@@ -301,15 +301,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>180,000円</dd>
+					<dd>195,000円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
-					<dd>技術手当（3,000円）</dd>
+					<dd>皆勤手当（10,000円）</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当②</dt>
-					<dd>皆勤手当（3,000円）</dd>
+					<dd>精勤手当（5,000円）</dd>
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
@@ -317,41 +317,41 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>あり（上限12,000円）</dd>
+					<dd>あり（上限25,000円）</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd>あり</dd>
+					<dd>あり（前年度実績5,000円）</dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>あり（1.3か月分）</dd>
+					<dd>あり（年3回、3.5か月分）</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>8時30分〜17時35分</dd>
+					<dd>8時45分〜17時30分</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均20時間</dd>
+					<dd>月平均15時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>週休2日制（土日・祝日・夏季休暇）</dd>
+					<dd>日・祝、その他</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>年末年始、お盆、など</dd>
+					<dd>月に2回土曜出勤があります。</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>厚生年金保険、健康保険、雇用保険、労災保険</dd>
+					<dd>厚生年金保険、健康保険、雇用保険、労災保険、財形保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
@@ -359,7 +359,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>あり（勤続年数3年以上）</dd>
+					<dd>あり（勤続年数1年以上）</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
@@ -367,15 +367,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>65歳</dd>
+					<dd>60歳</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>なし</dd>
+					<dd>あり（上限65歳まで）</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd>なし</dd>
+					<dd>あり（上限72歳まで）</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
@@ -388,15 +388,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>直近3年間の新卒者等採用者数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:1人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>直近3年間の新卒者等離職者数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:1人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>男性の新卒者等採用数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:1人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>女性の新卒者等採用数</dt>
@@ -405,66 +405,60 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						10年
+						-年
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>42.7歳</dd>
+					<dd>-歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
-					<dd>あり</dd>
-				</div>
-				<div>
-					<dt>研修内容</dt>
-					<dd>
-						機械操作など
-					</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>メンター制度の有無</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>キャリアコンサルティング制度の有無</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>前年度の月平均所定労働時間</dt>
-					<dd>20時間</dd>
+					<dd>15時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>16日</dd>
+					<dd>5日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
-					<dd>女性：1人、男性：0人</dd>
+					<dd>女性：0人、男性：0人</dd>
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
-					<dd>1名</dd>
+					<dd>0名</dd>
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>20%</dd>
+					<dd>0%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
-					<dd>10%</dd>
+					<dd>0%</dd>
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>管工事業</dd>
+					<dd>計量証明業</dd>
 				</div>
 			</dl>
 		</div>
@@ -473,19 +467,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>1名</dd>
+					<dd>3名</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						2025年8月4日（月） 9時00分～<br>
-						2025年8月5日（火） 9時00分～<br>
-						2025年8月6日（水） 9時00分～
+						随時<br>
+						お問い合わせください。
 					</dd>
 				</div>
 				<div>
 					<dt>選考方法</dt>
-					<dd>面接、適性検査</dd>
+					<dd>面接、書類選考</dd>
 				</div>
 				<div>
 					<dt>選考旅費</dt>
@@ -493,12 +486,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後10日以内</dd>
+					<dd>面接後7日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						山田しのぶ
+						採用担当者
 					</dd>
 				</div>
 			</dl>

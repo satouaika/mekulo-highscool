@@ -89,14 +89,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <div class="about-com content" id="company_gallery">
 	<h2>
-		目指せ！金属加工マスター
+		むずかしい会社だと思わないでください（願）
 	</h2>
 	<p>
-		ミヤマ製作所は、精度を超えた金属加工のプロ集団です。<br>
-		特に、複数の部品を組み合わせたとき、ぴったり合う部品加工ができる ことで、お客様から「他の会社だとできなかったことが、ミヤマさんだとできる」と指名されることが 多い会社です。<br>
-		どんな仕事でも、技術は一朝一夕で身に付くものではありません。職人技はなおさらです。しかし、努力して身に着けた技術は一生モノです。<br>
-		ミヤマ製作所では、手作業で加工をおこなう汎用工作機械と、プログラムで動くマシニングの両方を使って、精度の高い製品を作っています。<br>
-		誰にも負けない金属加工職人に挑戦しませんか！
+		科学技術開発センターというと固くて難しそうな会社のイメージを持つかもしれません。みなさんの身の回りの安全って、法律で決めた安全基準に則っているから、守られているってご存知ですか？<br>
+		もちろん、その安全基準が守られているかを測っている人がいるわけです。そんな仕事をしているのがＫＧＫ（科学技術開発センター）です。<br>
+		専門用語を使うことも多く、法律が守られているかを確かめる仕事なので、固くて難しそうと思うのも無理ないことですが、実は自然環境に関心のある、アウトドア派の社員が集う会社です。
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
@@ -131,28 +129,44 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<figcaption><span class="name"><?= WRITER['shomura']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
 	<p style="min-height: 160px;">
-		ミヤマ製作所の山田社長は、見かけによらずエネルギッシュで、思ったことをまっすぐ伝え、すぐに実行する人です。<br>
-		「もっとカッコいい作業着にしないと、若い子は入ってこないよ」って言われたら、すぐに新しい作業着を作っちゃう。それだけじゃなく、オリジナルのTシャツまで作っちゃう、柔軟な考え方と、遊び心を持っている社長です。<br>
-		製品を加工したての状態では、バリと呼ばれるギザギザがあり、製品として納品するためには、それを取り除く作業が必須です。納期に間に合わせるために、何百個っていうバリ取りを徹夜でやり遂げ、「やっと納品できた！」って、笑って話すような社長です。<br>
-		ミヤマ製作所は、技術者が集まるプロ集団だから、頑張ればすごい技術を身につけることができます。技術を身につけ、思いっきり発揮してください！
+		科学技術開発センター（KGK）は、「好奇心」が仕事になる会社です。たとえば山にこもって野生動物の数を調べたり、普段は立ち入りが難しい場所に行って地面や空気、水などのサンプルを採取したり。新しく建った建物の気密性を測るような仕事もあります。集めたデータは分析され、社会の安全や環境を守るための基準づくりに活かされます。<br>
+		入社したばかりのころは、専門用語が多くて戸惑うかもしれません。でも、最初は誰でも初心者。大事なのは「なぜ？」「どうして？」を楽しめる気持ち。サイエンスや化学に興味がある人にはぴったりの職場です。机の前だけじゃなく、自然の中でも実験ができる。そんなちょっと特別な研究フィールドが、ここにはあります。
 	</p>
 </div>
 <section class="content" id="about_company">
 	<h2>会社情報記事</h2>
+	<h3>好奇心が仕事になる会社</h3>
 	<p>
-		ミヤマ製作所は、長野県上田市の住宅街にある、金属加工のスペシャリスト集団です。初めて行く人は、「え、こんなところに工場があるの？」って思うかもしれません。でも、見た目とは裏腹に、すごい技術を持った会社です。<br>
-		ミヤマ製作所の強みは、お客さんが求める「ピッタリの精度 」で金属を加工できること。二つの部品を組み合わせた時に、スっとはまって一体化するような加工ができます。<br>
-		その精度を保証するために、最新の「三次元測定機」っていう機械を導入して、検査場も作りました。この機械のおかげで、今まで以上に正確な金属加工ができるようになっただけでなく、三次元測定のサービスも始めました。<br>
-		ミヤマ製作所は、いろんな種類の部品を、少ない数でも作ります。例えば、試作品の部品とか、ロボットの部品とか、お客さんのいろんな要望に柔軟に対応しています。
-	</p>
-	<h3>山田社長の紹介</h3>
-	<p>
-		つまり、ミヤマ製作所は、住宅街にひっそりとあるけど、高度な技術 と柔軟性を持った、金属加工のプロ集団です！
+		科学技術開発センター（KGK）は、長野市に本社を置く、環境調査と分析の専門企業です。水や空気、土壌、放射能、臭いなど、身の回りの環境を「科学の目」で測り、私たちの安全な暮らしを守るためのデータを提供しています。
 	</p>
 	<div class="images">
-		<img src="introduce1.jpg" class="scene" alt="">
-		<img src="introduce2.jpg" class="scene" alt="">
+		<img src="third.jpg" class="scene" alt="">
 	</div>
+	<h3>現場とラボ、どちらも舞台</h3>
+	<p>
+		KGKの仕事は、屋外と屋内、両方で行われます。たとえば、山に入って野生動物の数を調べたり、地面や川の水からサンプルを採取したり。ときには新しく建った住宅や施設で、空気の漏れを測定することもあります。調査で得たサンプルは会社に持ち帰り、ラボで細かく分析。その結果をまとめた報告書が、行政や企業の環境対策の基礎データとして活用されます。
+	</p>
+	<div class="images">
+		<img src="contents02.jpg" class="scene" alt="">
+	</div>
+	<h3>測るのは「安全」と「未来」</h3>
+	<p>
+		測定や分析の対象は多岐にわたります。空気中の化学物質（VOC）、住宅の気密性、工場の排水、土壌中の有害物質、放射線、悪臭…など、どれも人々の健康や地域の環境に関わるものばかりです。
+	</p>
+	<div class="images">
+		<img src="second.jpg" class="scene" alt="">
+	</div>
+	<h3>社会に役立つ実感がある仕事</h3>
+	<p>
+		KGKの仕事は、社会や地域の人々の安全を守る、いわば「縁の下の力持ち」。自分が関わったデータが、環境保全や建物の安全確保につながるとわかったとき、大きなやりがいを感じることができます。SDGs（持続可能な開発目標）にも積極的に取り組み、環境負荷を減らす社内活動も進めています。
+	</p>
+	<div class="images">
+		<img src="contents04.jpg" class="scene" alt="">
+	</div>
+	<h3>「知らない世界」をのぞいてみよう</h3>
+	<p>
+		もし、あなたが理系の道に進みたいと考えているなら。もし、自然や環境、社会のことに関心があるなら。KGKの仕事は、きっとあなたの好奇心を刺激してくれます。実際の現場を見てみたい、働く人の話を聞いてみたいという人は、ぜひ会社見学に参加してみてください。
+	</p>
 </section>
 <section id="business" class="content">
 	<h2>私たちのビジネス</h2>
@@ -160,44 +174,72 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="business1.jpg" alt="">
+					<img src="firstview.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>マシニング加工</h3>
+					<h3>水質検査</h3>
 					<p>
-						プログラムを組み金属加工を自動でおこないます。複雑な形の加工ができます。
+						自然環境の水から、水道の水までいろいろなところの水質を検査しています。
 					</p>
 				</hgroup>
 			</div>
-			<p>マシニング加工</p>
+			<p>水質検査</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="business2.jpg" alt="">
+					<img src="busi2.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>NC旋盤加工</h3>
+					<h3>作業環境測定</h3>
 					<p>
-						直径200φまでの金属加工をおこなうことができます。丸物と呼ばれる、円筒や円錐形の物の加工をします。
+						工場の作業環境を測定し、働いている人が安全に作業できる環境か確認します。また、安全基準を満たすためのアドバイスをすることも、大切な仕事です。
 					</p>
 				</hgroup>
 			</div>
-			<p>NC旋盤加工</p>
+			<p>作業環境測定</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="sokutei.jpg" alt="">
+					<img src="busi3.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>3次元測定器</h3>
+					<h3>悪臭物質測定</h3>
 					<p>
-						直径200φまでの金属加工をおこなうことができます。丸物と呼ばれる、円筒や円錐形の物の加工をします。
+						現在22の物質に規制があります。その代表的なものは、アンモニアやメチルメカブタンという、悪臭の原因となる物質です。その濃度を計測するためのサンプルを採取します。
 					</p>
 				</hgroup>
 			</div>
-			<p>3次元測定器</p>
+			<p>悪臭物質測定</p>
+		</li>
+		<li class="thumbnails">
+			<div class="thumbnail">
+				<div class="inner">
+					<img src="busi4.jpg" alt="">
+				</div>
+				<hgroup>
+					<h3>製品分析</h3>
+					<p>
+						みなさんのよく知るコンビニのお弁当やサンドウィッチ。一部工場の製造過程で使う水の浄化装置はKGKの技術が活かされています。
+					</p>
+				</hgroup>
+			</div>
+			<p>製品分析</p>
+		</li>
+		<li class="thumbnails">
+			<div class="thumbnail">
+				<div class="inner">
+					<img src="busi5.jpg" alt="">
+				</div>
+				<hgroup>
+					<h3>騒音振動測定</h3>
+					<p>
+						騒音や振動の規制基準は朝、昼、夜などに分けられています。それぞれの時間帯で測定をおこないます。
+					</p>
+				</hgroup>
+			</div>
+			<p>騒音振動測定</p>
 		</li>
 	</ul>
 </section>
@@ -207,15 +249,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
-			<p class="num"><span>42.7</span>歳</p>
+			<p class="num"><span>-</span>歳</p>
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
-			<p class="num"><span>10</span>年</p>
+			<p class="num"><span>-</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
-			<p class="num"><span>20</span>時間</p>
+			<p class="num"><span>15</span>時間</p>
 		</li>
 		<li class="small">
 			<p>年間休日</p>
@@ -224,11 +266,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>設立年</p>
-			<p class="num"><span>1977</span>年</p>
+			<p class="num"><span>1984</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>16</span>日</p>
+			<p class="num"><span>5</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -238,7 +280,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 100, 'caption' => '100%', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '（仮）100%', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -249,7 +291,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
-						[ 'value' => 100, 'caption' => '中途100%', 'color' => '#F34444'],
+						[ 'value' => 100, 'caption' => '（仮）中途100%', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -259,8 +301,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 3, 'caption' => '男性', 'color' => '#0062B5'],
-						[ 'value' => 3, 'caption' => '女性', 'color' => '#FF6E7E'],
+						[ 'value' => 3, 'caption' => '（仮）男性', 'color' => '#0062B5'],
+						[ 'value' => 3, 'caption' => '（仮）女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -271,11 +313,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<svg width="150" height="150" viewBox="0 0 200 200">
 				<?php create_donut_graph(100, 100, 100, 40, [
 					[ 'value' => 0.001, 'caption' => "", 'color' => '#808080'],
-					[ 'value' => 1, 'caption' => '20代', 'color' => '#0073B7'],
-					[ 'value' => 1, 'caption' => '30代', 'color' => '#00AEEF'],
-					[ 'value' => 4, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 2, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 1, 'caption' => '60代', 'color' => '#008C4A'],
+					[ 'value' => 1, 'caption' => '（仮）20代', 'color' => '#0073B7'],
+					[ 'value' => 1, 'caption' => '（仮）30代', 'color' => '#00AEEF'],
+					[ 'value' => 4, 'caption' => '（仮）40代', 'color' => '#00B398'],
+					[ 'value' => 2, 'caption' => '（仮）50代', 'color' => '#009F6B'],
+					[ 'value' => 1, 'caption' => '（仮）60代', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
 		</div>
@@ -284,7 +326,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク100%", 'color' => '#E06A3A'],
+						[ 'value' => 100, 'caption' => "（仮）車・バイク100%", 'color' => '#E06A3A'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
 					]); ?>
 				</svg>
@@ -295,7 +337,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 100, 'caption' => "長野県内100%", 'color' => '#B2CF3E'],
+							[ 'value' => 100, 'caption' => "（仮）長野県内100%", 'color' => '#B2CF3E'],
 							[ 'value' => 0.001, 'caption' => '', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
@@ -318,49 +360,43 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<div>
 			<dt>事業内容</dt>
 			<dd>
-				金属加工
+				<li>環境分析</li>
+				<li>建設コンサルタント（測量）</li>
 			</dd>
 		</div>
 		<div>
 			<dt>代表者名</dt>
-			<dd>山田しのぶ</dd>
+			<dd>若林恒雄</dd>
 		</div>
 		<div>
 			<dt>従業員数</dt>
-			<dd>9人（パート含む）</dd>
+			<dd>29人</dd>
 		</div>
 		<div>
 			<dt>本社所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17037.712180815346!2d138.2175384896355!3d36.38658543658651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601da32fd89a4f8b%3A0x5e95147d2fa2bc25!2z44Of44Ok44Oe6KO95L2c5omA!5e0!3m2!1sja!2sjp!4v1751512477956!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34254.812434959706!2d138.20833647254778!3d36.64388754961823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d85fe21c88ed1%3A0x8d220fff33b8edc5!2z44CSMzgxLTAwMjUg6ZW36YeO55yM6ZW36YeO5biC5YyX6ZW35rGg77yS77yQ77yV77yY4oiS77yXIOenkeWtpuaKgOihk-mWi-eZuuOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1751877770799!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
 			<dt>本社電話番号</dt>
-			<dd>0268-25-1775</dd>
+			<dd>026-263-2010</dd>
 		</div>
 		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://miyamass.jp/" target="<?= $co['slug'] ?>">https://miyamass.jp/</a></dd>
+			<dd><a href="https://kgk-c.co.jp/" target="<?= $co['slug'] ?>">https://kgk-c.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>
 <section class="content" id="from_president">
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
-		<h3>ミヤマ製作所で、一緒にものづくりしよう！</h3>
 		<figure class="portrait">
-			<img src="president_p.jpg" alt="">
-			<figcaption><span class="name">山田しのぶ</span></figcaption>
+			<img src="comingsoon.png" alt="">
+			<figcaption><span class="name">名前サンプル</span></figcaption>
 		</figure>
 		<p>
-			はじめまして！ミヤマ製作所の社長をやっている山田しのぶです！<br>
-			ウチは上田市にある**金属加工の工場**で、小さい部品から大きな製品まで、いろんなものをつくっている会社です。平成から令和に変わった年に、親の代から引き継いで、今は私が社長をやってます！<br>  
-			「金属加工ってなに？」って思うよね。簡単に言うと、**金属を削ったり、穴を開けたりして、必要な形にする仕事**！機械を使いこなして、いろんなものをつくる仕事です。<br>
-			今も昔も職人さんたちは、ひたむきに仕事をしています。黙々と目の前の仕事に向き合いながら、コツコツ自分の腕を磨いています。簡単にできることじゃないけど、その分やりがいのある仕事です。<br>
-			うちで作っている物は、他社さんがうまくいかなかったものを、「助けて～、ミヤマさん」って感じで依頼されて作る物が多いです。困った時のミヤマさんと思ってもらえていることは、うちの自慢です。<br>
-			協働ロボットを作っている坂城町にあるフレアオリジナルさんも、そんな感じでお仕事をするようになった会社さんです。私たちの作った部品がロボットに使われるなんて、思ってもみなかったことです。<br>
-			「ちょっと気になるな～」って思ったら、ぜひ工場を見に来て！未経験でも大丈夫、イチからしっかり教えるから、安心して飛び込んできてください。待ってるよ～！
+			科学技術開発センターには、自然が好きな“アウトドア派”の社員がたくさんいます。休みの日には山に入り、ソロキャンプをしたり、野草や昆虫を観察したり。そんな日常の中で育まれた好奇心は、実は仕事でもとても役立っています。たとえば、ある現場で測定中にちょっとした違和感に気づき、そこから新たな検査が必要だと判断されたことも。大切なのは、「この会社の安全のために何ができるだろう？」という視点です。科学や自然が好きなあなた、その“気づく力”を社会の役に立ててみませんか？あなたの好奇心が、未来を守る力になります。
 		</p>
 	</div>
 </section>
@@ -408,10 +444,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>募集職種</h2>
 	<ul class="image_navi">
 		<li>
-			<a href="<?= $company_base ?>job_kakou/">
+			<a href="<?= $company_base ?>job_sokutei/">
 				<figure>
-					<img src="first.jpg" alt="">
-					<figcaption>金属加工職</figcaption>
+					<img src="job_sokutei/firstview.jpg" alt="">
+					<figcaption>技術部測定課</figcaption>
 				</figure>
 			</a>
 		</li>
