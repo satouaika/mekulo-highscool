@@ -249,15 +249,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>雇用形態</dt>
-					<dd>正社員</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>雇用期間</dt>
-					<dd>定めなし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>契約更新の可能性</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>試用期間</dt>
@@ -265,7 +265,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
-					<dd>同条件</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>就業場所</dt>
@@ -286,33 +286,34 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
-					<dd>可</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>転勤の可能性</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>必要な知識・技能等</dt>
-					<dd>不問</dd>
+					<dd></dd>
 				</div>
 			</dl>
 			<h3>賃金・手当</h3>
 			<dl>
 				<div>
 					<dt>賃金形態</dt>
-					<dd>月給</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>21日</dd>
+					<dd>日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
-					<dd>現行</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>基本給</dt>
+
 					<dd>157,000円～</dd>
 				</div>
 				<div>
@@ -329,7 +330,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>固定残業代</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>初任給</dt>
@@ -341,15 +342,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>特別に支払われる手当②</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>毎月20日</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>あり（上限なし）</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
@@ -391,7 +392,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>あり（勤続年数3年以上）</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
@@ -403,7 +404,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>あり（上限年齢65歳）</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
@@ -411,7 +412,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 			</dl>
 		</div>
@@ -420,19 +421,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>直近3年間の新卒者等採用者数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:人、2年度前：人、3年度前：人</dd>
 				</div>
 				<div>
 					<dt>直近3年間の新卒者等離職者数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:人、2年度前：人、3年度前：人</dd>
 				</div>
 				<div>
 					<dt>男性の新卒者等採用数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:人、2年度前：人、3年度前：人</dd>
 				</div>
 				<div>
 					<dt>女性の新卒者等採用数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:人、2年度前：人、3年度前：人</dd>
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
@@ -460,15 +461,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>メンター制度の有無</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>キャリアコンサルティング制度の有無</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
@@ -480,11 +481,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
-					<dd>女性：0人、男性：0人</dd>
+					<dd>女性：人、男性：人</dd>
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
-					<dd>0名</dd>
+					<dd>名</dd>
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
@@ -492,11 +493,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
-					<dd>0%</dd>
+					<dd>%</dd>
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>製造職</dd>
+					<dd></dd>
 				</div>
 			</dl>
 		</div>
@@ -519,7 +520,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考旅費</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
