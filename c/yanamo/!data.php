@@ -1,7 +1,7 @@
 <?php
 $co = [
     'slug' => 'yanamo',
-    'image' => 'factry.jpg',
+    'image' => 'fv.jpg',
     'company_name' => '有限会社 柳沢モータース',
     'catch_copy' => 'クルマの仕事、未来の自分！ヤナモでスタート！',
     'industry' => ['R'],
@@ -24,7 +24,7 @@ $occupation = [
         'url' => 'job_mechanic',
         'catch_copy' => '車の安全を確かな整備でサポートする',
         'work' => ['891'],
-        'image' => 'job_mechanic/firstview.jpg',
+        'image' => 'first.jpg',
         'latitude' => 36.45699395,//緯度
         'longitude' => 138.17584401,//経度
         'MBTI' => 'IStp',
@@ -57,14 +57,14 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年 月  日（ ）  時  分～', 
-                'date' => '2025- -  ',
-                'deadline' => '2025-  -  ',//募集締切日
+                'name' => '随時開催中！', 
+                'date' => '2025-08-10',
+                'deadline' => '2025-08-10',//募集締切日
             ],
         ],
-        'catch_copy' => '実際の現場をのぞいてみませんか？',
+        'catch_copy' => '',
         'visit_img' =>'first_view.JPG',
-        'content' => '工場内をご案内しながら、作業内容について詳しくご説明致します。',
+        'content' => '仕事内容について詳しくご説明致します。',
     ],
 ];
 

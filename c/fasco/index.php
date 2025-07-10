@@ -384,7 +384,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<p class="num"><span>10</span>年</p>
 		</li>
 		<li class="small">
-			<p>平均残業時間</p>
+			<p>月平均残業時間</p>
 			<p class="num"><span>15</span>時間</p>
 		</li>
 		<li class="small">
@@ -651,7 +651,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>20.4日</dd>
+					<dd>21日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
@@ -699,7 +699,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回（1.7ヶ月分）</dd>
+					<dd>年2回（計3.4ヶ月分）</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>

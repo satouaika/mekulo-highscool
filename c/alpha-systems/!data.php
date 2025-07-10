@@ -1,7 +1,7 @@
 <?php
 $co = [
     'slug' => 'alpha-systems',
-    'image' => 'company.jpg',
+    'image' => 'firstview.jpg',
     'company_name' => '株式会社アルファーシステムズ',
     'catch_copy' => 'モノを生み出す機械をゼロから作り上げる',
     'industry' => ['E'],
@@ -24,19 +24,14 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年7月29日（火） 9時00分～', 
+                'name' => '随時開催中！', 
                 'date' => '2025-07-29',
                 'deadline' => '2025-07-26',//募集締切日
             ],
-            [
-                'name' => '2025年7月30日（水） 9時00分～', 
-                'date' => '2025-07-30',
-                'deadline' => '2025-07-27',//募集締切日
-            ]
         ],
         'catch_copy' => '',
         'visit_img' =>'firstview.jpg',
-        'content' => '応募前見学として参加する方は参加申し込みをしてください。',
+        'content' => 'お気軽にお問い合わせください。',
     ],
 ];
 
