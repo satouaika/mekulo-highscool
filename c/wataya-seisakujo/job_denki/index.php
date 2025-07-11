@@ -266,7 +266,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>21日</dd>
+					<dd>-日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
@@ -274,7 +274,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>170,000円～</dd>
+					<dd>円～</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
@@ -294,7 +294,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
-					<dd>皆勤手当（3,000円～）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当②</dt>
@@ -302,38 +302,38 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>毎月20日</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>あり（上限なし）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd>あり</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回</dd>
+					<dd>-</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>8時10分〜17時15分</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均20時間</dd>
+					<dd>月平均-時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>週休2日制（土日・祝日・他）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>年間休日113日（2025年度計画）</dd>
+					<dd>年間休日116日（2025年度計画）</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
@@ -344,27 +344,27 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd>企業年金基金</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>あり（勤続年数3年以上）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>あり（60歳）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>あり（定年年齢60歳）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>あり（上限年齢65歳）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
@@ -394,64 +394,62 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						10年<br>
-						※創業以降の実績
+						-年
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>50歳</dd>
+					<dd>-歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>研修内容</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-						〇資格取得支援<br>
-						業務に関係するの資格取得にかかる費用について、会社承認の上で、100%補助を行っています。
+						-
 					</dd>
 				</div>
 				<div>
 					<dt>メンター制度の有無</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>キャリアコンサルティング制度の有無</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
-					<dd>20時間</dd>
+					<dd>-時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>10日</dd>
+					<dd>-日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
-					<dd>女性：0人、男性：0人</dd>
+					<dd>女性：-人、男性：-人</dd>
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
-					<dd>0名</dd>
+					<dd>-名</dd>
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>66%</dd>
+					<dd>-%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
-					<dd>0%</dd>
+					<dd>-%</dd>
 				</div>
 				<div>
 					<dt>区分の名称</dt>
@@ -464,7 +462,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>1人</dd>
+					<dd>-人</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
@@ -488,13 +486,20 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>選考担当者</dt>
 					<dd>
 						専務取締役<br>
-						内藤
+						綿谷
 					</dd>
 				</div>
 			</dl>
 		</div>
 	</div>
-</section>		
+	<div>
+		<a href="../apply/#entry" class="btn_entry">
+			<img src="../../../flag.png" class="flag">
+			<span>応募前見学情報を見る</span>
+			<img src="../../../arrow.svg">
+		</a>
+	</div>
+</section>	
 <section class="g nextpage">
     <h2>その他の職種を見てみる</h2>
     <ul class="image_navi">
