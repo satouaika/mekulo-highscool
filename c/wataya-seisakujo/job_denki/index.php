@@ -83,7 +83,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="first_view.jpg">
+    <img alt="" class="fv_image" src="first_view.JPG">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -131,7 +131,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
         そんな機械に“命”を吹き込むのが、私たち電気組立の仕事です。
 	</p>
 	<div class="images">
-		<img src="first_view.jpg" alt="" class="scene">
+		<img src="first_view.JPG" alt="" class="scene">
 	</div>
 	<p>
 	    電気組立では、主に制御盤の組み立てや配線作業を行います。<br>
@@ -153,7 +153,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		３メートルを超える大きな配線盤を担当することもあり、熟練の先輩たちはすべてを１人で仕上げていきます。
 	</p>
 	<div class="images">
-		<img src="contents04.jpg" alt="" class="scene">
+		<img src="contents04.JPG" alt="" class="scene">
 	</div>
 	<p>
 		とにかく正確さが求められる仕事なので、パズルやプラモデルなど細かい作業が好きな人にぴったりの仕事です。
@@ -173,10 +173,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<div class="image_area">
 			<ul class="slides">
 			<li>
-		<img src="contents05.jpg" alt="">
+		<img src="contents05.JPG" alt="">
 	</li>
 	<li>
-		<img src="contents04.jpg" alt="">
+		<img src="contents04.JPG" alt="">
 	</li>
 	<li>
 		<img src="contents01.jpg" alt="">

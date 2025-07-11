@@ -65,7 +65,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_area">
-	<img alt="" class="fv_image" src="first_view.jpg">
+	<img alt="" class="fv_image" src="first_view.JPG">
 	<hgroup>
 		<h1 class="catch"><?= $co['catch_copy'] ?></h1>
 		<p class="fv-tag"><?= INDUSTRIES[$co['industry'][0]] ?></p>
@@ -98,13 +98,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div id="gallery">
 		<div class="gallery_window">
 			<img src="gallery01.jpg" alt="" class="fs show">
-			<img src="gallery02.jpg" alt="" class="sc">
+			<img src="gallery02.JPG" alt="" class="sc">
 			<img src="gallery03.jpg" alt="" class="th">
 			<img src="gallery04.jpg" alt="" class="fo">
 		</div>
 		<div class="gallery_index">
 			<img src="gallery01.jpg" alt="" class="fs">
-			<img src="gallery02.jpg" alt="" class="sc">
+			<img src="gallery02.JPG" alt="" class="sc">
 			<img src="gallery03.jpg" alt="" class="th">
 			<img src="gallery04.jpg" alt="" class="fo">
 		</div>
@@ -148,13 +148,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		1つ目は「組立部門」。工場で使われる機械を組み立てたり、電気の配線をしたり、正確に動くように調整したりします。特に、プラスチック製品を作るための射出成型機という機械づくりでは、日精樹脂工業株式会社の協力工場として、安定した品質で多くの実績を残しています。
 	</p>
 	<div class="images">
-		<img src="first_view.jpg" class="scene" alt="">
+		<img src="first_view.JPG" class="scene" alt="">
 	</div>
 	<p>
 		2つ目は「加工部門」。機械に使われる部品を、図面を見ながら専用の機械を使って削ったり、形を整えたりします。いろんな部品を少しずつ作る「多品種少量生産」が強みです。
 	</p>
 	<div class="images">
-		<img src="contents01.jpg" class="scene" alt="">
+		<img src="contents01.JPG" class="scene" alt="">
 	</div>
 	<h3>
 		綿谷製作所の特別な技術
@@ -180,7 +180,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
         生ゴミを土壌改良する「亜臨界水処理」や、プラスチック廃棄物を燃料に変える「油化機」の開発など、より良い未来のために環境課題に向き合っています。
 	</p>
 	 <div class="images">
-		<img src="contents04.jpg" class="scene" alt="">
+		<img src="contents04.JPG" class="scene" alt="">
 	</div>
 	<p>
 		私たちは、長い歴史と豊富な経験、確かな技術で、多くのニーズに応えるものづくりを続けています。一緒に技術を学び、未来のものづくりを支えていきましょう！
@@ -192,7 +192,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="first_view.jpg" alt="">
+					<img src="first_view.JPG" alt="">
 				</div>
 				<hgroup>
 					<h3>射出成型機</h3>
@@ -472,7 +472,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_denki/">
 				<figure>
-					<img src="job_denki/first_view.jpg" alt="">
+					<img src="job_denki/first_view.JPG" alt="">
 					<figcaption>電気組立</figcaption>
 				</figure>
 			</a>

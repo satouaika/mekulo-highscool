@@ -151,7 +151,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		三次元測定機という機械を操作することもあります。
 	</p>
 	<div class="images">
-		<img src="contents06.jpg" alt="" class="scene">
+		<img src="contents06.JPG" alt="" class="scene">
 		<img src="contents07.jpg" alt="" class="scene">
 	</div>
 	<p>
@@ -186,7 +186,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
         平面を見て立体をイメージする力が必要になるので、プラモデルや工作が好きな人は、よりスムーズに理解できるかもしれません。
 	</p>
 	<div class="images">
-		<img src="contents09.jpg" alt="" class="scene">
+		<img src="contents09.JPG" alt="" class="scene">
 	</div>
 	<p>
 		ただ測るだけでなく、「なぜこの検査が必要なのか」を自分の言葉で説明できるようになるのも、大切な成長の一歩です。
