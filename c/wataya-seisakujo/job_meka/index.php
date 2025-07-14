@@ -474,7 +474,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
-					<dd>3%</dd>
+					<dd>15%</dd>
 				</div>
 				<div>
 					<dt>区分の名称</dt>
