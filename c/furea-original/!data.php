@@ -24,7 +24,7 @@ $occupation = [
         'url' => 'job_robot',
         'catch_copy' => '考えて、作って、動かす。ロボットに使命を与える仕事',
         'work' => ['541','73'],
-        'fv_url' => 'job_robot/firstview.jpg',
+        'fv_url' => 'job_robot/first_view.jpg',
         'latitude' => 36.4558151,//緯度
         'longitude' => 138.1860619,//経度
         'MBTI' => 'IStj', 
@@ -43,7 +43,7 @@ $visit = [
             ],
         ],
         'catch_copy' => '',
-        'visit_img' =>'first-view.jpg',
+        'visit_img' =>'first_view.jpg',
         'content' => '作業内容について詳しくご説明いたします。お気軽にお問い合わせください。',
     ],
     
