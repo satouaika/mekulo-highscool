@@ -1,7 +1,7 @@
 <?php
 $co = [
     'slug' => 'futaba-yousetsu',
-    'image' => 'company.jpg',
+    'image' => 'first-view.jpg',
     'company_name' => '株式会社 双葉溶接',
     'catch_copy' => '夢は溶接アトリエ！',
     'industry' => ['E'],
