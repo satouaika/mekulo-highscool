@@ -102,7 +102,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
-			<img src="first_view.jpg" alt="" class="fs show">
+			<img src="first_view.JPG" alt="" class="fs show">
 			<img src="busi01.jpg" alt="" class="sc">
 			<img src="job_robot/robot3.jpg" alt="" class="th">
 			<img src="factory.jpg" alt="" class="fo">
