@@ -10,7 +10,7 @@ include_once $highschool_base . 'circle.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$description = '株式会社フレアオリジナルの応募前見学ページです。';//メタディスクリプションをここに挿入 
+$description = '株式会社マルイの応募前見学ページです。';//メタディスクリプションをここに挿入 
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -18,7 +18,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -27,7 +27,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -60,40 +59,38 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </script>
 
 </head>
-<body class="highschool furea-original">
+<body class="highschool">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 <main>
 <div class="fv_wr">
-	<img alt="" class="fv_image" src="../first_view.JPG">
+	<img alt="" class="fv_image" src="<?= $company_base ?>fv.jpg">
 	<div class="apply">
 		<h1 class="catch"><?= $co['company_name'] ?></h1>
 		<p class="tag">応募前見学ページ</p>
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"></p>
+	<p class="catchcopy"><span>建物の骨組みを知ろう</span></p>
 	<p class="cont">
-		フレアオリジナルの応募前見学では、工場を見学しながら、仕事内容について説明します。<br>
-		さまざまなロボットが作られていく様子を、間近で見ることができます。<br>
-		職場の雰囲気や実際の仕事内容を見て、「ここで働いてみたい！」と思えるきっかけになるかもしれません。
+		
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			随時開催中！<br>
-			お気軽にお問い合わせください。
+			<li>
+				2025年8月8日（金） 14時00分～
+			</li>
+			<li>2025年8月9日（土） 14時00分～</li>
 		</ul>
 	</div>
-	<!--
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>会社説明<span>  分程度</span></li>
-			<li>工場見学<span>  分程度</span></li>
+			<li><span>  分程度</span></li>
+			<li><span>  分程度</span></li>
 		</ul>
 	</div>
-	-->
 	<p class="entry_txt">応募前見学をご希望の方は、担任の先生や、進路指導の先生にご相談ください。</p>
 </section>
 </main>
@@ -102,5 +99,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../tab.js"></script>
 <script src="../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 </body>
