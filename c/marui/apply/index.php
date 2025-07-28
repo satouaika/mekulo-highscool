@@ -84,6 +84,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li>2025年8月9日（土） 14時00分～</li>
 		</ul>
 	</div>
+	<!--
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
@@ -91,6 +92,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li><span>  分程度</span></li>
 		</ul>
 	</div>
+	-->
 	<p class="entry_txt">応募前見学をご希望の方は、担任の先生や、進路指導の先生にご相談ください。</p>
 </section>
 </main>

@@ -227,7 +227,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src=".jpg" alt="">
+					<img src="contents01.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>鉄筋ユニット</h3>
@@ -241,7 +241,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src=".jpg" alt="">
+					<img src="contents02.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>軽量鉄骨</h3>
@@ -255,7 +255,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src=".jpg" alt="">
+					<img src="contents17.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>丸セパ（住宅基礎部材）</h3>
@@ -269,7 +269,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src=".jpg" alt="">
+					<img src="contents16.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>建築用ターンバックル</h3>
